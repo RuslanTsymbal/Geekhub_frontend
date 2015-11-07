@@ -1,0 +1,73 @@
+@import url(reset.css);
+
+#wrapper{
+	width: 850px;
+	margin: 0 auto;
+}
+
+legend, .headroom, .headroom_2, .headroom_3, .headroom_4, .mail, .spam, .questions{
+	font-weight: bold;
+}
+
+li{
+	list-style-type: none;
+	padding-bottom: 12px;
+}
+
+ul{
+	padding-left: 0;
+}
+
+input[name="f_name"]{
+	width: 260px;
+}
+
+input[name="surname"]{
+	width: 265px;
+}
+
+input[name="age"]{
+	width: 52px;
+}
+
+h4{
+	margin-bottom: 0;
+}
+
+
+.form_2{
+	margin-top: 23px;
+}
+
+.form_3{
+	margin-top: 20px;
+}
+
+.italic{
+	font-style: italic;
+	font-weight: normal;
+}
+
+#submit{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.distance{
+	padding: 0;
+}
+
+.headroom{
+	margin-bottom: 0;
+}
+
+.headroom_2{
+	padding-top: 10px;
+}
+
+.distance_2{
+	margin:  5px;
+	padding-bottom: 0 ;
+}
+
+
