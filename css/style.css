@@ -1,0 +1,36 @@
+@import url(reset.css);
+
+body{
+	background-image: url(../images/bg.jpg);
+}
+
+#wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+
+h1{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 45px;
+	text-align:  center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.work, a{
+	text-align:  center;
+	font-size: 25px;
+	color: #fff;
+	padding-left: 423px;
+}
+
+li{
+	padding-bottom: 20px;
+	color: #fff;
+}
+
+a:hover {
+  color: #52546c;
+}
+
