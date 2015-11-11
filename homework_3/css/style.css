@@ -1,4 +1,3 @@
-@import url(reset.css);
 
 #wrapper{
 	width: 850px;
@@ -7,11 +6,16 @@
 
 legend, .headroom, .headroom_2, .headroom_3, .headroom_4, .mail, .spam, .questions{
 	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.headroom_2, .headroom_3{
+	padding-bottom: 15px;
 }
 
 li{
 	list-style-type: none;
-	padding-bottom: 12px;
+	padding-bottom: 8px;
 }
 
 ul{
@@ -22,18 +26,13 @@ input[name="f_name"]{
 	width: 260px;
 }
 
-input[name="surname"]{
+input[name="s_name"]{
 	width: 265px;
 }
 
 input[name="age"]{
 	width: 52px;
 }
-
-h4{
-	margin-bottom: 0;
-}
-
 
 .form_2{
 	margin-top: 23px;
@@ -49,11 +48,10 @@ h4{
 }
 
 #submit{
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin: 20px 0;
 }
 
-.distance{
+.distance li{
 	padding: 0;
 }
 
@@ -61,13 +59,25 @@ h4{
 	margin-bottom: 0;
 }
 
-.headroom_2{
-	padding-top: 10px;
-}
-
-.distance_2{
+.distance_2 li{
 	margin:  5px;
 	padding-bottom: 0 ;
 }
 
+.title{
+	font-size: 30px;
+	font-weight: bold;
+}
 
+.about{
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.headroom_4 p{
+	padding-bottom: 0;
+}
+
+.distance input{
+		width: 160px;
+}

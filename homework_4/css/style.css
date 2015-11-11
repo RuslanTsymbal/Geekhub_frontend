@@ -1,5 +1,9 @@
-@import url(reset.css);
 
+body{
+	font: 16px "Times New Roman", Times, serif;;
+	color: #000; 
+	background-color: #0828b3;
+}
 
 #wrapper{
 	width: 900px;
@@ -7,25 +11,62 @@
 	background-image: url(../images/list.jpg);
 }
 
-legend, .headroom, .headroom_2, .headroom_3, .headroom_4, .mail, .spam, .questions{
+#header{
+	margin-top: 37px;
+	padding: 10px 0 0 25px; 
+}
+
+#header p{
+	padding-top: 12px;
+}
+
+#form{
+	padding-top: 14px;
+	width: 850px;
+	margin: 0 auto;
+}
+
+.part{
+	text-transform: lowercase;
+}
+
+.border, .form_2, .form_3{
+	border: 1px solid #9ca9aa;
+	padding-left: 15px;
+}
+
+.first-text:first-letter{
+	text-transform: uppercase;
+}
+
+.border ul{
+	padding-top: 20px;
+}
+
+.form_2, input [type=radio]{
+	padding-top: 20px;
+}
+
+.distance li{
+	padding-bottom: 0;
+}
+
+.headroom{
+	padding-top: 8px;
+}
+
+.text_in{
+	padding-top: 13px;
+}
+
+.title{
+	font-size: 30px;
 	font-weight: bold;
 }
 
-li{
-	list-style-type: none;
-	padding-bottom: 11px;
-}
-
-input[name="f_name"]{
-	width: 260px;
-}
-
-input[name="surname"]{
-	width: 265px;
-}
-
-input[name="age"]{
-	width: 52px;
+.about{
+	font-size: 23px;
+	font-weight: bold;
 }
 
 .form_2{
@@ -47,17 +88,26 @@ input[name="age"]{
 	padding: 0 0 40px 10px;
 }
 
-/* Homework_4*/
 
-body{
-	font: 16px "Times New Roman", Times, serif;;
-	color: #000; 
-	background-color: #0828b3;
+legend, .headroom, .headroom_2, .headroom_3, .headroom_4, .mail, .spam, .questions{
+	font-weight: bold;
 }
 
-#header{
-	margin-top: 37px;
-	padding: 10px 0 0 25px; 
+li{
+	list-style-type: none;
+	padding-bottom: 8px;
+}
+
+input[name="f_name"]{
+	width: 260px;
+}
+
+input[name="s_name"]{
+	width: 265px;
+}
+
+input[name="age"]{
+	width: 52px;
 }
 
 h1{
@@ -73,44 +123,4 @@ h2{
 	padding-top: 18px;	
 }
 
-.part{
-	text-transform: lowercase;
-}
 
-.border, .form_2, .form_3{
-	border: 1px solid #9ca9aa;
-	padding-left: 15px;
-}
-
-.first-text:first-letter{
-	text-transform: uppercase;
-}
-
-#header p{
-	padding-top: 12px;
-}
-
-.border ul{
-	padding-top: 20px;
-}
-
-.form_2, input [type=radio]{
-	padding-top: 20px;
-}
-
-.distance, input[type=text]{
-	padding-bottom: 0;
-}
-
-.headroom{
-	padding-top: 8px;
-}
-
-.text_in{
-	padding-top: 13px;
-}
-
-#form{
-	width: 850px;
-	margin: 0 auto;
-}

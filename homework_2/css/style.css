@@ -1,4 +1,3 @@
-@import url(reset.css);
 
 body{
 	background-color: #88b7f0;
@@ -7,9 +6,7 @@ body{
 
 #wrapper{
 	width: 900px;
-	margin:0 auto;
-	margin-top: 23px;
-	margin-bottom: 23px;
+	margin: 23px auto;
 	background-color: #fff;
 }
 
@@ -27,23 +24,23 @@ body{
 	padding: 0 100px;
 }
 
-#text .bold, .normal{
+#text .text_bold, .text_normal{
 	text-align: left;
 }
 
-.normal p{
+.text_normal p{
 	padding-bottom: 13px;
 }
 
-.bold{
+.text_bold{
 	font-weight: bold;
 }
 
-.bold, .normal{
+.text_bold, .text_normal{
 	text-align: left;
 }
 
-.bold p{
+.text_bold p{
 	padding-bottom: 13px;
 	padding-top: 14px;
 }
@@ -58,17 +55,17 @@ body{
 	font-style: italic;
 } 
 
-.italic{
+.text_italic{
 	font-style: italic;
 	text-align: center; 
 }
 
-.italic_2{
+.text_italic_2{
 	font-style: italic;
 	text-align: right; 
 }
 
-.italic p{
+.text_italic p{
 	padding-bottom: 10px;
 }
 
@@ -118,7 +115,17 @@ body{
 	padding-bottom: 40px;
 }
 
+.position{
+	padding-bottom: 18px;
+}
 
+.aircraft p{
+padding-bottom: 12px;
+}
+
+.aircraft_top p{
+	padding-bottom: 10px;
+}
 h1{
 	font-size: 30px;
 	font-weight: bold;
@@ -131,6 +138,7 @@ h2{
 
 h3{
 	font-size: 20px;
+	font-weight: bold;
 	padding-bottom: 10px;
 }
 
