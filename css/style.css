@@ -7,27 +7,45 @@ body{
 #wrapper{
 	width: 980px;
 	margin: 0 auto;
+	background-image: url(../images/bg.jpg);
+	position: relative;
 }
+
 
 h1{
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 45px;
-	text-align:  center;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding: 42px 0 30px;
+	
+
+}
+
+.foto img{
+	width: 100px;
+	height: auto;
+	margin-top: 50px;
+	padding-left: 200px;
+	float: left;
+	position: absolute;
 }
 
 .work, a{
-	text-align:  center;
 	font-size: 25px;
 	color: #fff;
-	padding-left: 423px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.box{
+	text-align: center;
 }
 
 li{
 	padding-bottom: 20px;
 	color: #fff;
+	text-align: center;
+	
 }
 
 a:hover {

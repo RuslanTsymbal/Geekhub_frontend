@@ -1,0 +1,145 @@
+
+body{
+	background-color: #88b7f0;
+	font: 15px/1.3 serif;
+}
+
+#wrapper{
+	width: 900px;
+	margin: 23px auto;
+	background-color: #fff;
+}
+
+#header{
+	padding-top: 70px;
+	text-align: center;
+}
+
+#header p{
+	text-align: center;
+	font-size: 17px;
+}
+
+#text {
+	padding: 0 100px;
+}
+
+#text .text_bold, .text_normal{
+	text-align: left;
+}
+
+.text_normal p{
+	padding-bottom: 13px;
+}
+
+.text_bold{
+	font-weight: bold;
+}
+
+.text_bold, .text_normal{
+	text-align: left;
+}
+
+.text_bold p{
+	padding-bottom: 13px;
+	padding-top: 14px;
+}
+
+.aircraft img{
+	float:left;
+	padding-right: 35px;
+	padding-top: 14px;
+}
+
+.em{
+	font-style: italic;
+} 
+
+.text_italic{
+	font-style: italic;
+	text-align: center; 
+}
+
+.text_italic_2{
+	font-style: italic;
+	text-align: right; 
+}
+
+.text_italic p{
+	padding-bottom: 10px;
+}
+
+.mouse{
+	text-align: center;
+	padding-top: 18px;
+	padding-bottom: 17px;
+}
+
+.mouse img{
+	padding-bottom: 13px;
+}
+
+.mouse p{
+	text-align: left;
+}
+
+#content_2 h2{
+	padding-bottom: 16px;
+}
+
+#content_3 h2{
+	padding-top: 20px;
+	padding-bottom: 17px;
+}
+
+#content_4 h2{
+	padding-top: 15px;
+	padding-bottom: 16px
+}
+
+.underline{
+	text-decoration: underline;
+
+}
+
+.disc{
+	list-style-type: disc;
+	padding-left: 50px;
+	padding-top: 26px;
+}
+
+.decimal{
+	list-style-type:decimal;
+	padding-left: 50px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.position{
+	padding-bottom: 18px;
+}
+
+.aircraft p{
+padding-bottom: 12px;
+}
+
+.aircraft_top p{
+	padding-bottom: 10px;
+}
+h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+

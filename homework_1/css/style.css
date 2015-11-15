@@ -1,0 +1,69 @@
+
+body{
+	background: #f4f4f4;
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	background: url(../images/google_bg.jpg)no-repeat;
+	background-size: cover;
+}
+
+#content{
+	border-top: 1px solid #c0c0c0;
+	margin-top: 55px;
+}
+
+#content img{
+	border-radius: 10px;
+}
+
+#text h1{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 255px;
+	padding-top: 55px;
+}
+
+#logo{
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#logo img{
+	border-radius: 10px;
+	width: auto;
+	height: 113px;
+}
+
+#content p{
+	font:16px/1.6 Arial, Verdana, Tahoma, sans-serif;
+	margin-left:20px;
+	margin-top: 20px;
+}
+
+#content img{
+	margin-left: 370px;
+}
+
+.word{
+	color: #e10b70;
+	text-transform: uppercase;
+}
+
+
+#footer{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #0a42bf;
+}
+
+#footer p{
+	font-weight: bold;
+	margin-left: 20px;
+	padding: 15px 0 15px;
+}
+
