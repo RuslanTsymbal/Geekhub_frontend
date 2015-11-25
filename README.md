@@ -8,3 +8,5 @@ Homework-GeekHub Frontend
 3. Homework#3 (без reset.css) /виправлена/
 4. Homework#4 (з reset.css) /виправлена/
 5. Homework#5
+6. Homework#6
+
