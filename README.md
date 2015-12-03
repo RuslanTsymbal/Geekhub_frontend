@@ -9,6 +9,6 @@ Homework-GeekHub Frontend
 4. Homework#4 (з reset.css) /виправлена/
 5. Homework#5
 6. Homework#6
-7. Homework#7 (Як обійтись без <br> в <section class="banner"> ? )
+7. Homework#7 (виправлена)
 
 
