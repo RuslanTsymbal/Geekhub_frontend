@@ -10,5 +10,6 @@ Homework-GeekHub Frontend
 5. Homework#5
 6. Homework#6
 7. Homework#7 (виправлена)
+8. Homework#8
 
 
