@@ -40,19 +40,21 @@ p {
 	line-height: 20px;
 }
 
+.italic {
+	font-style: italic; 
+}
 /*-----------------------------Wrapper----------------------------------------*/
 
 .wrapper {
-	max-width: 1171px;
+	width: 87%;
 	margin: 0 auto;
-	overflow: hidden;
+	
 }
 
 /*-----------------------------Top----------------------------------------*/
 
 .top {
 	background: url(../images/header-bg.jpg) no-repeat;
-	background-size:cover;
 }
 
 .header-top {
@@ -76,9 +78,12 @@ p {
 	font-weight: 400;
 }
 
+.menu {
+	float: right;
+}
+
 nav ul li {
 	display: inline;
-	float: right;
 }
 
 nav a {
@@ -93,17 +98,16 @@ nav a:hover {
 }
 
 .header-bottom {
-	clear: both;
-	margin-bottom: 99px;
+	padding-bottom: 43px;
 }
 
 .name h1 { 
 	padding-bottom: 30px;
+	text-align: center;
 }
 
 .name a  {
 	width: 200px;
-	margin-left: 140px; 
 }
 
 .name {
@@ -112,6 +116,7 @@ nav a:hover {
 	margin:  0 auto;
 	padding: 200px 0 42px;
 	position: relative;
+	text-align: center;
 }
 
 .button {
@@ -161,9 +166,9 @@ nav a:hover {
 	position: relative;
 }
 
-.description-img {
+ .text-bottom img {
 	float: left;
-	max-width: 571px;
+	width: 571px;
 	height: auto;
 	padding: 58px 30px 0 0;
 	clear: both;
@@ -295,15 +300,19 @@ figure {
 
 .services {
 	background-color: #fafafa;
-	padding-top: 40px;
+	padding: 40px 0 2px;
 }
 
 .services-unit {
-	max-width: 272px;
+	width: 271px;
 	float: left;
 	border: 1px #e2e2e2 solid;
 	margin-right: 26px;
 	background-color: #fff;
+}
+
+#services-unit {
+	margin-right: 0;
 }
 
 .services-line {
@@ -320,7 +329,7 @@ figure {
 	padding-top: 34px;
 	text-align: center;
 	width: 227px;
-	padding-left: 24px;
+	padding: 15px;
 }
 
 .services-unit a {
@@ -385,7 +394,7 @@ figure {
 /*-----------------------------Contact---------------------------------------*/
 
 .contact {
-	padding-top: 56px;
+	padding-top: 60px;
 }
 
 .contact-text {
@@ -428,9 +437,8 @@ figure {
 	overflow: hidden;
 }
 
-.contact-form input, .contact-form [name="message"] {
+.contact-form input {
 	color: #c9c9c9;
-	font-size: 14px;
 	font-weight: 400;
 	line-height: 15px;
 }
@@ -438,6 +446,10 @@ figure {
 .contact-form [name="message"] {
 	padding: 23px 0 0 10px;
 	border: 1px solid #e6e6e6;
+	width: 557px;
+	color: #c9c9c9;
+	font-weight: 400;
+	line-height: 15px;
 }
 
 .contact-form [name="name"], [name="email"] {
@@ -452,7 +464,7 @@ figure {
 }
 
 .contact-form [name="subject"] {
-	width: 570px;
+	width: 539px;
 	border: 1px solid #e6e6e6;
 	padding: 14px; 
 	margin-bottom: 30px;
@@ -480,6 +492,7 @@ button:hover {
 
 footer {
 	background-color: #39c9da;
+	clear: both;
 }
 
 .footer-text p {
