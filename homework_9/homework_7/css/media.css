@@ -1,0 +1,919 @@
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	 html {
+		font-size: 50%;
+	}
+	
+	#container, #footer, header, .banner-text h1, .logo h1, .banner-text, .news-text {
+		width: 100%;
+	}
+	
+	.wrapper {
+		width: 90%;
+	}
+	
+	#news h1 {
+		font-size: 4rem;
+	}
+	
+	.list-food p {
+        font-size: 2.5rem;
+     }
+
+	/*--------------------------header--banner---------------------------*/
+
+	header {
+    	padding: 21px 0 13px;
+   	}	
+		
+	.logo {
+		float: none;
+		text-align: center;
+	}
+
+	.logo h1 {
+		font-size: 4.6rem;
+	}
+
+	.banner-text {
+		text-align: center;
+		font-size: 1rem;
+		padding-top: 84px;
+	}
+
+	.banner-text h1 {
+		font-size: 5rem;
+		line-height: 5rem;
+	}
+	
+	.list-food ul li {
+	    float: none; 
+	    width: 100%; 
+	    height: auto;
+	    overflow: hidden;
+	    margin-bottom: 14%;
+ 	}
+	
+	.list-food p {
+        line-height: 3rem;
+	    width: 80%; 
+	    text-align: center;
+	    padding: 4vh;
+	 	line-height: 3rem;
+	}
+
+	.list-food h2 {
+		padding-bottom: 36px;
+	}
+
+	#banner {
+		padding-bottom: 20%;
+	}
+
+	.button:active {
+	color: #edeff1;
+	background-color: #dd4b2b;
+	}
+
+	/*-------------------------news----------------------*/
+	
+	#news {
+		padding-bottom: 10%;
+	}
+
+	#news h1 {
+		font-size: 4rem;
+		padding: 16% 0 16%;
+	}
+
+	.news-text {
+		float: none;
+	}
+
+	#news p {
+		font-size: 2rem;
+	}
+
+	#news h3 {
+		padding-bottom: 8%;
+	}
+
+	/*-----------------------newsletter---------------------------*/
+
+	.newsletter-top {
+		padding-top: 15%;
+	}
+
+	.newsletter-top p {
+		max-width: 100%;
+		font-size: 2rem;
+		line-height: 3.5rem;
+		padding-top: 5%;
+	}
+
+	.newsletter-bottom input{
+		max-width: 83%;
+	}
+
+	.newsletter-button {
+		width: 45%;
+		left: 149px;
+	}
+
+	form {
+	    padding: 0;
+	}
+
+	/*-----------------------content---------------------------*/
+
+	#first-content, #second-content {
+		float: left;
+		margin-bottom: 20%;
+		margin-top: 0;
+		text-align: center;
+		max-width: 100%;
+	}
+
+	#first-content h2 {
+		display: block;
+		padding: 10% 0 56%;
+		text-align: center;
+		line-height: 4rem;
+	}
+
+	#first-content p, #second-content p {
+		max-width: 50%;
+		font-size: 2rem;
+		padding: 0;
+		margin-bottom: 10%;
+		text-align: center;
+	}
+
+    .content-top, .content-bottom {
+    	position: relative;
+    }
+	
+	.sign-1 {
+		max-width: 70%;
+		margin: 0 auto;
+	}
+
+	.sign-1 a {
+		max-width: 40%;
+		margin-left: 20%;
+		display: block;
+	}
+
+	.first-content-foto img, .second-content-foto img {
+		max-width: 70%;
+		padding: 22% 16% 10%;
+	}
+
+	.second-content-foto img {
+		margin-top: 219%;
+		padding: 5% 13%;
+	}
+
+	.first-content-foto, .second-content-foto  {
+		position: absolute;
+	}
+
+	#second-content h2 {
+		padding-bottom: 58%;
+	}	
+
+	#content {
+		padding-bottom: 0;
+	}
+
+	/*-------------------------list----------------------*/
+	
+	#list {
+		padding-bottom: 10%;
+	}
+
+	.list-text {
+		float: none;
+	}
+	
+	#list-center {
+		max-width: 100%;
+		padding-top: 10%;
+		padding-left: 0;
+	}
+	
+	#list-center a {
+		font-size: 2rem;
+	}
+
+	.list-text {
+		padding: 0;
+	}
+
+	/*-------------------------footer----------------------*/
+		
+	#footer-text  p {
+		 width: 80%;
+		 font-size: 2rem;
+		 padding: 15% 0 10%;
+		 line-height: 3rem;
+	}
+
+	#footer-text a {
+	color: blue;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+	
+	html {
+		font-size: 65%;
+	}
+
+	nav {
+		display: none;
+	}
+
+	#container, #footer, header, .banner-text h1, .logo h1, .banner-text, .news-text {
+		width: 100%;
+	}
+	
+	.wrapper {
+		width: 90%;
+	}
+	
+	#news h1 {
+		font-size: 4rem;
+	}
+	
+	.list-food p {
+        font-size: 2.5rem;
+     }
+
+	/*--------------------------header--banner---------------------------*/
+
+	header {
+    	padding: 21px 0 13px;
+   	}	
+		
+	.logo {
+		float: none;
+		text-align: center;
+	}
+
+	.logo h1 {
+		font-size: 4.6rem;
+	}
+
+	.banner-text {
+		text-align: center;
+		font-size: 1rem;
+		padding-top: 84px;
+	}
+
+	.banner-text h1 {
+		font-size: 4rem;
+		line-height: 5rem;
+	}
+
+	.list-food {
+	    margin-bottom: 25px;
+	}
+
+	.list-food ul li {
+	    float: none; 
+	    width: 100%; 
+	    height: auto;
+	    overflow: hidden;
+	    margin-bottom: 0;
+ 	}
+	
+	.list-food p {
+        line-height: 3rem;
+	    width: 80%; 
+	    text-align: center;
+	    padding: 4vh;
+	 	line-height: 3rem;
+	 	font-size: 2rem;
+	}
+
+	.list-food h2 {
+		padding-bottom: 36px;
+	}
+
+	#banner {
+		padding-bottom: 15%;
+	}
+
+	.button:active {
+		color: #edeff1;
+		background-color: #dd4b2b;
+	}
+
+	/*-------------------------news----------------------*/
+	
+	#news {
+		padding-bottom: 10%;
+	}
+
+	#news h1 {
+		font-size: 4rem;
+		padding: 10% 0 10%;
+	}
+
+	.news-text {
+		float: none;
+	}
+
+	#news p {
+		font-size: 2rem;
+		padding-bottom: 27px;
+	}
+
+	#news h3 {
+		padding-bottom: 8%;
+	}
+
+	/*-----------------------newsletter---------------------------*/
+
+	.newsletter-top {
+		padding-top: 15%;
+	}
+
+	.newsletter-top p {
+		max-width: 100%;
+		font-size: 2rem;
+		line-height: 3.5rem;
+		padding-top: 5%;
+	}
+
+	.newsletter-bottom input {
+		max-width: 70%;
+		margin-left: 10%;
+	}
+
+	.newsletter-button {
+		width: 38%;
+		left: 219px;
+	}
+
+	form {
+	    padding: 0;
+	}
+
+	/*-----------------------content---------------------------*/
+
+	#first-content, #second-content {
+		float: left;
+		margin-bottom: 20%;
+		text-align: center;
+		max-width: 100%;
+	}
+
+	#first-content h2 {
+		display: block;
+		padding: 10% 0 56%;
+		text-align: center;
+		line-height: 4rem;
+	}
+
+	#first-content p, #second-content p {
+		max-width: 50%;
+		font-size: 2rem;
+		padding: 0;
+		margin-bottom: 10%;
+		text-align: center;
+	}
+
+    .content-top, .content-bottom {
+    	position: relative;
+    }
+	
+	.sign-1 {
+		max-width: 70%;
+		margin: 0 auto;
+	}
+
+	.sign-1 a {
+		max-width: 40%;
+		margin-left: 20%;
+		display: block;
+	}
+
+	.first-content-foto img, .second-content-foto img {
+		max-width: 70%;
+		padding: 22% 16% 10%;
+	}
+
+	.second-content-foto img {
+		margin-top: 196%;
+		padding: 0 13%;
+	}
+
+	.first-content-foto, .second-content-foto  {
+		position: absolute;
+	}
+
+	#second-content h2 {
+		padding-bottom: 59%;
+	}	
+
+	#content {
+		padding-bottom: 0;
+	}
+
+	/*-------------------------list----------------------*/
+	
+	#list {
+		padding-bottom: 10%;
+	}
+
+	.list-text {
+		float: none;
+	}
+	
+	#list-center {
+		max-width: 100%;
+		padding-top: 10%;
+		padding-left: 0;
+	}
+	
+	#list-center a {
+		font-size: 2rem;
+	}
+
+	.list-text {
+		padding: 0;
+	}
+
+	/*-------------------------footer----------------------*/
+		
+	#footer-text  p {
+		width: 80%;
+		font-size: 2rem;
+		padding-top: 10%;
+		margin-bottom: 10%;
+		line-height: 3rem;
+	}
+
+	#footer-text a {
+		color: blue;
+	}
+}
+
+@media screen and (max-width: 767px){
+	nav {
+		display: none;
+	}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+	html {
+		font-size: 65%;
+	}
+
+	nav {
+		display: none;
+	}
+
+	#container, #footer, header, .banner-text h1, .logo h1, .banner-text, .news-text {
+		width: 100%;
+	}
+	
+	.wrapper {
+		width: 90%;
+	}
+	
+	#news h1 {
+		font-size: 4rem;
+	}
+	
+	.list-food p {
+        font-size: 2.5rem;
+     }
+
+	/*--------------------------header--banner---------------------------*/
+
+	header {
+    	padding: 21px 0 13px;
+   	}	
+		
+	.logo {
+		float: none;
+		text-align: center;
+	}
+
+	.logo h1 {
+		font-size: 4.6rem;
+		padding-bottom: 2%;
+	}
+
+	.banner-text {
+		text-align: center;
+		font-size: 1rem;
+		padding-top: 150px;
+	}
+
+	.banner-text h1 {
+		font-size: 4rem;
+		line-height: 5rem;
+	}
+
+	.list-food {
+	    margin-bottom: 25px;
+	}
+
+	.list-food ul li {
+	    float: none; 
+	    width: 100%; 
+	    height: auto;
+	    overflow: hidden;
+	    margin-bottom: 0;
+ 	}
+	
+	.list-food p {
+        line-height: 3rem;
+	    width: 56%; 
+	    text-align: center;
+	    padding: 0 0 7%;
+	 	line-height: 3rem;
+	 	font-size: 2rem;
+	}
+
+	.list-food h2 {
+		padding-bottom: 36px;
+	}
+
+	#banner {
+		padding-bottom: 10%;
+	}
+
+	.button:active {
+		color: #edeff1;
+		background-color: #dd4b2b;
+	}
+
+	/*-------------------------news----------------------*/
+	
+	#news {
+		padding-bottom: 3%;
+	}
+
+	#news h1 {
+		font-size: 4rem;
+		padding: 8% 0 8%;
+	}
+
+	.news-text {
+		float: none;
+	}
+
+	#news p {
+		font-size: 2rem;
+		padding-bottom: 27px;
+	}
+
+	#news h3 {
+		padding-bottom: 3%;
+	}
+
+	/*-----------------------newsletter---------------------------*/
+
+	.newsletter-top {
+		padding-top: 5%;
+	}
+
+	.newsletter-top p {
+		max-width: 100%;
+		font-size: 2rem;
+		line-height: 3.5rem;
+		padding-top: 5%;
+	}
+
+	.newsletter-bottom input {
+		max-width: 52%;
+		margin-left: 18%;
+	}
+
+	.newsletter-button {
+		width: 29%;
+		left: 320px;
+	}
+
+	form {
+	    padding: 0;
+	}
+
+	/*-----------------------content---------------------------*/
+
+	#first-content, #second-content {
+		float: left;
+		text-align: center;
+		max-width: 60%;
+		margin: 0 auto;
+	}
+
+	#first-content h2 {
+		display: block;
+		padding: 10% 0 5%;
+		text-align: center;
+		line-height: 4rem;
+	}
+
+	#first-content p, #second-content p {
+		max-width: 100%;
+		font-size: 2rem;
+		padding: 0;
+		margin-bottom: 10%;
+		text-align: left;
+	}
+	
+	#second-content {
+		margin: 10% 0 15%;
+	}
+
+    .content-top, .content-bottom {
+    	position: relative;
+    }
+	
+	.sign-1 {
+		max-width: 70%;
+		margin: 0 auto;
+	}
+
+	.sign-1 a {
+		max-width: 40%;
+		margin-left: 20%;
+		display: block;
+	}
+
+	.first-content-foto img, .second-content-foto img {
+		max-width: 37%;
+		float: right;
+	}
+
+	.first-content-foto img {
+		padding: 15% 0 0 16%;
+	}
+
+	.second-content-foto img {
+		margin-top: 72%;
+		padding-left: 14%;
+	}
+
+	.first-content-foto, .second-content-foto {
+		position: absolute;
+	}
+
+	#second-content h2 {
+		padding-bottom: 6%;
+	}	
+
+	#content {
+		padding-bottom: 0;
+	}
+
+	/*---------------------------list----------------------*/
+	
+	#list {
+		padding-bottom: 10%;
+	}
+
+	.list-text {
+		float: none;
+	}
+	
+	#list-center {
+		max-width: 100%;
+		padding-top: 10%;
+		padding-left: 0;
+	}
+	
+	#list-center a {
+		font-size: 1.8rem;
+	}
+
+	.list-text {
+		padding: 0;
+	}
+
+	/*-------------------------footer----------------------*/
+	
+	#footer {
+		background-size: auto;
+	}
+
+	#footer-text  p {
+		width: 80%;
+		height: auto;
+		font-size: 1.7rem;
+		padding-top: 0;
+		margin-bottom: 14%;
+		line-height: 3rem;
+	}
+
+	#footer-text {
+		padding-top: 10%;
+		padding-bottom: 26%;
+	}
+
+	#footer-text a {
+		color: blue;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1255px){
+
+	#container, #footer, header, .banner-text h1, .logo h1, .banner-text, .news-text {
+		width: 100%;
+	}
+	
+	.wrapper {
+		width: 90%;
+	}
+	
+	.list-food p, #news p, .newsletter-top p, #second-content p, #first-content p  {
+		font-size: 2rem;
+	}
+
+/*--------------------------header--banner---------------------------*/
+	
+	.banner-text {
+		padding-top: 18%;
+	}
+
+	nav {
+		float: right;
+		padding: 10px 0;
+	}
+
+	nav a {
+		font-size: 2rem;
+	}
+
+	#banner {
+		padding-bottom: 10%;
+	}
+	
+	.list-food h2 {
+		font-size: 3rem;
+	}
+
+/*-------------------------------news-------------------------------*/
+
+	#news {
+		padding-bottom: 5%;
+	}
+
+	#news h1 {
+		padding: 5% 0 6%;
+		font-size: 3.5rem;
+	}
+
+	#news h3 {
+		padding-bottom: 2%;
+	}
+
+	.list-food ul li {
+		    float: none; 
+		    width: 100%; 
+		    height: auto;
+		    overflow: hidden;
+		    margin-bottom: 2%;
+	}
+		
+	.list-food {
+		    margin-bottom: 25px;
+	}	
+
+	.list-food p {
+	   	    width: 40%; 
+		    text-align: center;
+		    padding: 0 0 7%;
+		 	line-height: 3rem;
+	}
+
+/*-----------------------------newsletter---------------------------*/
+
+	.newsletter-top h1 {
+		font-size: 4rem;
+		padding-bottom: 2%;
+	}
+	
+	.newsletter-top p {
+		width: 72%;
+		margin: 0 auto;
+	}
+	
+	.newsletter-bottom input {
+		max-width: 52%;
+		margin-left: 18%;
+	}
+
+	.newsletter-bottom input {
+		max-width: 47%;
+		margin-left: 24%;
+	}
+
+	.newsletter-button {
+		width: 22%;
+		left:  489px;
+	}
+
+	form {
+	    padding: 0;
+	}
+
+/*-----------------------------content------------------------------*/
+	
+	#first-content, #second-content {
+		max-width: 40%;
+	}
+	
+	#first-content p {
+		max-width: 100%;
+		padding: 0;
+		margin: 0;
+		text-align: left;
+		margin-bottom: 10%;
+	}
+	
+	#first-content h2 {
+		padding: 40px 36px 25px;
+	}
+
+	.first-content-foto img {
+		max-width: 50%;
+		float: right;
+		padding-top: 12%;
+	}
+	
+	#second-content {
+		float: left;
+		padding-top: 10%;
+	}
+
+	#second-content p {
+		width: 100%;
+	}
+
+	.second-content-foto img {
+		max-width: 50%;
+		float: right;
+		padding-top: 17%;
+	}
+
+/*-------------------------------list-----------------------------*/
+	
+	#list {
+		clear: both;
+		padding-bottom: 0;
+	}
+
+	#list-center {
+		max-width: 88%;
+		padding: 5% 0;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	#list-center ul li {
+		padding-right: 10%;
+	}
+
+	#list-last {
+		padding: 0;
+	}
+
+	.list-text  {
+		width: 33%;
+		display: block;
+	    float: left;
+	    padding: 0 ;
+	    text-align: center;
+	}
+
+/*-------------------------------footer--------------------------*/
+
+	#footer {
+		padding-top: 10%;
+		background-size: auto;
+		margin-bottom: 0;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	#footer-text  p {
+		width: 60%;
+		padding: 0 0 100px;
+		margin-top: 0;
+	}
+
+	#footer-text {
+		width: 80%;
+		height: auto;
+		margin: 0 auto;
+	}
+}
