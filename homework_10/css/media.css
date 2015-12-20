@@ -1,0 +1,56 @@
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+	 html {
+		font-size: 50%;
+	}
+	
+	header,
+	#banner, 
+	#article, 
+	#section-social,
+	#editor, 
+	.social, 
+	#people, 
+	#pricing, 
+	#newsletter,
+	#news,
+	#footer {
+		width: 100%;
+	}
+
+	nav {
+		display: none;
+	}
+	
+	.small {
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+		padding: 13px 29px 16px 29px;
+		float: right;
+	} 
+}
+ 
+@media screen and (min-width: 480px) and (max-width: 767px){
+		
+	html {
+		font-size: 50%;
+	}
+
+	
+@media screen and (max-width: 767px){
+	
+	nav {
+		display: none;
+	}
+}
+	
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+	
+	
+		
+@media screen and (min-width: 1024px) and (max-width: 1255px){
+
+	
