@@ -73,7 +73,7 @@
 	}
 
 	.text a {
-       	margin-left: 20%;
+       	margin-left: 14%;
 	}
 
 /*---------------------------portfolio--------------------------------*/
@@ -88,6 +88,22 @@
 
    	figure {
 	    float: none;
+	}
+
+	.active {
+		height: 77%;
+	}
+	
+	.active a {
+		padding: 10% 12% 0;
+		display: block;
+		width: 35%;
+		margin: 27% 19%;
+		line-height: 0;
+	}
+
+	.active a:hover {
+		line-height: 0;
 	}
 
 /*---------------------------services--------------------------------*/
@@ -145,7 +161,7 @@
 	}
 	
 	button {
-		margin: 32px 40px 60px;
+		margin: 32px 27px 60px;
 	}
 
 /*---------------------------footer--------------------------------*/
@@ -171,7 +187,7 @@
 	}
 	
 	h2 {
-		font-size: 2rem;
+		font-size: 1.9rem;
 	}	
 	
 	.text-top p, .text p, .contact-text p {
@@ -191,7 +207,8 @@
 	
 	.logo {
 		float: none;
-		margin-left: 25%;
+		width: 41%;
+		margin: 0 auto;
 	}
 
 	.logo a {
@@ -223,7 +240,6 @@
 	    width: 80%;
 	    margin: 0 auto;
 	    padding: 5% 0;
-
 	}
 	
 	.description-img img {
@@ -238,6 +254,9 @@
        	margin-left: 28%;
 	}
 
+	.text h2:after {
+		right: 289px;
+	}
 /*---------------------------portfolio--------------------------------*/
 
 	.portfolio {
@@ -251,6 +270,21 @@
    	figure {
 	    float: none;
 	    margin: 0 24px 60px;
+	}
+
+	.active {
+		height: 285px;
+	}
+
+	.active a {
+		line-height: 0;
+		padding: 10% 4% 0 11%;
+		margin: 30% 27%;
+		display: block;
+	}
+
+	.active a:hover {
+		line-height: 0;
 	}
 
 /*---------------------------services--------------------------------*/
@@ -371,7 +405,7 @@
 /*---------------------------top--------------------------------*/
 
 	.logo {
-		width: 30%;
+		width: 26%;
 	    float: none;
 	    margin: 0 auto;
 	}
@@ -409,7 +443,7 @@
 	}
 	
 	.text h2:after {
-        right: 269px;
+        right: 261px;
 	}
 	
 	.text-bottom {
@@ -451,11 +485,39 @@
 	.portfolio-img  img {
 		width: 100%;
 	}
+	
+	figure {
+        margin-right: 10%;
+        margin-left: 0;
+	}
+	.active {
+		width: 100%;
+		height: 79%;
+	}
+
+	.active a {
+		width: 35%;
+		margin: 26% 21%;
+		line-height: 0;
+		padding: 10% 10% 0;
+	}
+
+	.active a:hover {
+		line-height: 0;
+	}
 
 /*---------------------------services--------------------------------*/	
 	
 	.services-unit {
-		margin: 0 6% 6% 6%;
+		margin: 0 11% 10% 4%;
+	}
+
+	.services-unit:nth-child(even) {
+		margin-right: 0;
+	} 
+
+	.services-list {
+    	margin-bottom: 25px;
 	}
 
 /*---------------------------contact--------------------------------*/		
@@ -474,7 +536,10 @@
 		width: 100%;
 		margin: 0 auto;
 	}
-
+	
+	button {
+		    margin: 31px 175px 63px;
+	}
 }
 		
 @media screen and (min-width: 1024px) and (max-width: 1255px){
@@ -500,7 +565,7 @@
 /*---------------------------Description--------------------------------*/
 
 	.text {
-		overflow: hidden;
+		overflow: visible;
 		padding-bottom: 2%;
 	}
 
@@ -509,7 +574,7 @@
 	}
 	
 	.text h2:after {
-		right: 314px;
+		right: 307px;
 	}
 
 	.text p, .contact-text p {
@@ -523,6 +588,10 @@
 	.description-img img {
 		width: 100%
 	}
+	
+	.button {
+		margin-left: 36%;
+	}
 
 /*---------------------------portfolio --------------------------------*/
 
@@ -534,7 +603,6 @@
 		overflow: hidden;
 	} 
 
-	
 	figure {
 		width: 41%;
 		margin-right: 16%;
@@ -555,6 +623,10 @@
 
 	.portfolio-img  img {
 		width: 100%;
+	}
+
+	.active {
+		height: 289px; 
 	}
 
 /*-----------------------------services------------------------------*/
@@ -584,10 +656,19 @@
 		float: left;
 		max-width: 100%;
 	}
+	
+	.contact-form [name="name"],[name="email"] {
+		width: 95%;
+	} 
+	
+	button {
+		margin-right: 32%;
+	}
 
 	form {
-		width: 64%;
+		width: 65%;
 		margin: 0 auto;
+		overflow: hidden;
 	}
 }
 
