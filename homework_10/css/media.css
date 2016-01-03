@@ -5,6 +5,8 @@
 		font-size: 50%;
 	}
 	
+/*----------------------------header----------------------------------*/
+	
 	header,
 	#banner, 
 	#article, 
@@ -15,7 +17,12 @@
 	#pricing, 
 	#newsletter,
 	#news,
-	#footer {
+	#footer,
+	.content-icon,
+	#article h1,
+	.social ul li,
+	.pricing-name,
+	.form [name="email"]  {
 		width: 100%;
 	}
 
@@ -23,12 +30,260 @@
 		display: none;
 	}
 	
+	.list-top {
+	display: none;
+	}
+
 	.small {
 		font-size: 1.5rem;
 		line-height: 1.5rem;
 		padding: 13px 29px 16px 29px;
-		float: right;
 	} 
+	
+	.logo {
+		width: 57%;
+		float: left;
+	}
+
+	.button-top {
+		margin-top: 5%;
+	}
+
+/*----------------------------#banner----------------------------------*/
+	
+	#banner {
+		background-position: 50% 0%;
+	}
+
+	.banner-text h1 {
+		font-size: 7.2rem;
+		padding-top: 71px;
+	}
+
+	.banner-text p {
+		line-height: 3rem;
+		font-size: 3rem;
+		padding-bottom: 250px;
+	}
+
+	.banner-text span {
+		padding-bottom: 20%;
+	}
+
+/*----------------------------#editor-----------------------------------*/
+
+	.big {
+    	padding: 23px 39px 22px 30px;
+    }
+
+    .content-top-text span {
+  	    font-size: 1.8rem;
+  	}
+
+  	.content-top-text h1 {
+  		font-size: 4rem;
+  		line-height: 4rem;
+  	}
+	
+	.content-icon {
+		padding-bottom: 40px;
+	}
+
+  	.content-icon ul li {
+  		display: block;
+  		line-height: 6rem;
+  	}
+
+/*----------------------------#article-----------------------------------*/	
+	
+	#article {
+		overflow: hidden;
+	}
+
+	.row {
+	    margin-right: 0; 
+    	margin-left: 0; 
+	}
+	
+	#article h1 {
+		float: none;
+		width: 100%;
+		font-size: 3rem;
+	}
+
+	.article {
+		 padding: 60px 0 0;
+	}
+	
+	.image-code {
+	    width: 112%;
+	    padding: 8% 0 8%;
+	    position: static;
+	}
+
+/*----------------------------#section-social----------------------------*/
+	
+	.name-text {
+		padding-bottom: 10px;
+	}
+
+	.social ul li {
+		width: 100%;
+		float: none;
+		padding-right: 0;
+		margin-bottom: 10%;
+	}
+	
+	.sicial-button {
+		margin: 0 auto;
+	}
+
+/*---------------------------#people & #pricing----------------------------*/
+	
+	#people {
+		background-position: 50% 0%;
+	}
+
+	#people h1, #pricing h1 {
+        font-size: 3.8rem;
+        width: 100%;
+        line-height: 4rem;
+    }
+	
+	.pricing-name {
+		padding-bottom: 50px;
+	}
+
+    .list ul li {
+    	padding-bottom: 50px;
+    }
+	
+	.list p {
+		font-size: 2rem;
+	}
+
+	#pricing .row div {
+		width: 90%;
+		margin: 30px 14px;
+	}
+
+	#bottom {
+    	padding-bottom: 15%;
+	}
+
+	.xs-col-6 {
+		float: none;
+	}
+
+	.purchase {
+    	padding: 18px 6px 14px 43px;
+	}
+	
+	.pricing-text p {
+		width: 100%;
+		font-size: 2.2rem;
+		line-height: 2.5rem;
+		padding-bottom: 10%;
+	}
+
+/*------------------------------#newsletter------------------------------*/
+	
+	#newsletter {
+		padding-bottom: 10%;
+	}
+
+	#newsletter h1 {
+		width: 100%;
+		padding-bottom: 0;
+	}
+
+	.form [name="email"] {
+		float: none;
+		margin-bottom: 8%;
+	}
+
+	.form button {
+		width: 45%;
+		margin-left: 30%;
+	}
+
+/*------------------------------#news----------------------------------*/
+
+	#news {
+		padding: 10% 0 10%;
+	}
+
+	.news-text-left h1, .news-text-center h1, .news-text-right h1 {
+        padding-bottom: 30px;
+	}
+
+	.news-text-left h2 {
+		font-size: 2rem;
+	}
+
+	.news-text-left p,
+	.news-text-center p,
+	.news-text-right p  {
+		font-size: 1.5rem;
+	}
+	
+	.news-text-right span {
+		font-size: 1.3rem;
+	}
+	
+	.news-text-center h2 {
+		font-size: 2rem;
+	}
+
+	.button-news {
+		padding-bottom: 16%;
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.button-news a {
+		font-size: 1.7rem;
+	}
+
+/*-----------------------------#footer--------------------------------*/
+	
+	.footer-wrapper {
+		padding-top: 15%;
+	}
+
+	.footer-logo,
+	.navigation {
+		float: none;
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	.footer-logo .logo {
+		width: 100%;
+	} 
+
+	.logo p {
+		padding: 22% 0 10%;
+		width: 100%; 
+	}
+	
+	.contact p,
+	.logo p,
+	.info p  {
+		font-size: 1.5rem;
+	}
+
+	.navigation h1,
+	.contact span:nth-child(odd),
+	.info h3 {
+		font-size: 2rem;
+	}
+
+	.navigation,
+	.contact,
+	.info {
+		padding-top: 10%;
+	}
 }
  
 @media screen and (min-width: 480px) and (max-width: 767px){
@@ -36,7 +291,260 @@
 	html {
 		font-size: 50%;
 	}
+	
+	header,
+	#banner, 
+	#article, 
+	#section-social,
+	#editor, 
+	.social, 
+	#people, 
+	#pricing, 
+	#newsletter,
+	#news,
+	#footer,
+	.content-icon,
+	#article h1,
+	.social ul li,
+	.pricing-name,
+	.content-top-text p,
+	.container-man {
+		width: 100%;
+	}
 
+/*----------------------------header----------------------------------*/
+	
+	.logo {
+		width: 48%;
+		float: left;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.button-top {
+		margin: 3% 0 5%;
+		float: left;
+	}
+	
+	.list-top {
+		display: block;
+		float: right;
+		margin-top: 2%;
+	}
+
+	.small {
+ 	    padding: 15px 45px 18px 45px;
+ 	}
+
+/*----------------------------#banner----------------------------------*/
+	
+	#banner {
+		background-position: 50% 100%;
+		padding: 0 0 74%;
+	}
+	
+	.banner-text h1 {
+		font-size: 8.2rem;
+	}
+
+	.banner-text span {
+		padding-bottom: 30%;
+	}
+
+	.banner-text p {
+		font-size: 3.7rem;
+		font-weight: 400;
+		line-height: 4rem;
+		padding-bottom: 1%;
+	}
+
+/*----------------------------#editor----------------------------------*/
+
+	.content-top-text h1 {
+		font-size: 5rem;
+		line-height: 6rem;
+	}
+
+/*-------------------------------#article----------------------------------*/
+	
+	#article {
+		overflow: hidden;
+	} 
+
+	#article h1 {
+		font-size: 7rem;
+		line-height: 7rem;
+		text-align: center;
+		padding: 10% 0 16%;
+		overflow: hidden;
+	}
+
+	.row {
+	    margin-right: 0; 
+    	margin-left: 0; 
+	}
+	
+	.article {
+		padding-bottom: 0;
+	}
+
+	.article h2 {
+		font-size: 2rem;
+	}
+
+	.article h2, .article p {
+    	padding-left: 32%;
+	}
+
+	.article p {
+    	font-size: 1.5rem;
+    	line-height: 2.7rem;
+	}
+	
+	.article ul li {
+		margin-bottom: 7%;
+	}
+	
+	.image-code {
+	    width: 112%;
+	    padding: 8% 0 0;
+	    position: static;
+	}
+
+/*--------------------------#section-social---------------------------------*/
+
+	.name {
+		width: 53%;
+	}
+
+	.name-text {
+		width: 80%;
+	}
+
+	.left-arrow, 
+	.right-arrow {
+		padding-top: 27%;
+	} 
+
+	.social ul li {
+		width: 54%;
+		display: block;
+		margin: 0 auto;
+		float: none;
+		padding-right: 0;
+		margin-bottom: 10%;
+	}
+	
+	#section-social {
+		padding-bottom: 0;
+	}
+
+/*--------------------------#people---------------------------------*/
+	
+	#people {
+		background-position: 50% 0%;
+	} 
+
+    #people h1 {
+    	font-size: 7rem;
+       	line-height: 9rem;
+    }
+
+    .list p {
+    	width: 100%;
+    	text-align: center;
+    	display: block;
+    	margin: 0 auto;
+    	font-size: 2.4rem;
+    	line-height: 3.5rem;
+    }
+
+      .list ul li {
+      	padding-bottom: 70px;
+      }
+
+/*------------------------------#pricing--------------------------------*/
+
+ 	#pricing h1 {
+    	font-size: 6rem;
+       	line-height: 9rem;
+    }
+	
+	#pricing .xs-col-6 {
+		float: none;
+	}
+	
+	#pricing .row div {
+		width: 60%;
+		margin: 0 auto;
+		margin-bottom: 10%;
+	}
+
+	.purchase {
+    	padding: 18px 4px 14px 43px;
+	}
+
+	.pricing-name {
+		padding-bottom: 80px;
+	}
+
+	.pricing-text p {
+		width: 90%;
+		font-size: 2.4rem;
+    	line-height: 3.1rem;
+	}
+
+/*------------------------------#newsletter------------------------------*/
+
+	#newsletter h1 {
+		font-size: 3.5rem;
+		padding-bottom: 10px;
+	}
+	
+	.form [name="email"] {
+		width: 54%;
+		float: left;
+		margin-right: 6%;
+	}
+
+	form {
+		padding-bottom: 7%;
+	}
+
+/*------------------------------#news------------------------------*/
+
+	.news-text-left h1,
+	.news-text-center h1, 
+	.news-text-right h1 {
+		padding-bottom: 30px;
+	}
+
+	
+	.button-news {
+		padding-bottom: 10%;
+	}
+
+/*------------------------------#footer------------------------------*/
+
+	.footer-logo,
+	.navigation {
+		float: none;
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	.footer-logo .logo {
+		width: 100%;
+	}
+	
+	.navigation,
+	.contact,
+	.info {
+		padding-top: 7%;
+	}
+}
 	
 @media screen and (max-width: 767px){
 	
@@ -48,9 +556,324 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
 
+	header,
+	#banner, 
+	#article, 
+	#section-social,
+	#editor, 
+	.social, 
+	#people, 
+	#pricing, 
+	#newsletter,
+	#news,
+	#footer,
+	.content-icon,
+	#article h1,
+	.social ul li,
+	.pricing-name {
+		width: 100%;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.logo {
+		width: 70%;
+		float: left;
+	}
+
+	.button-top {
+   		 margin-top: 2%;
+   	}
+
+   	.small {
+        padding: 15px 45px 18px 54px;
+    }
+
+ /*------------------------------#banner------------------------------*/
+
+	#banner {
+		background-position: 50% 100%;
+	}
+
+ /*------------------------------#article------------------------------*/	
 	
+	#article {
+		overflow: hidden;
+	}
+
+ 	#article h1 {
+ 		float: none;
+ 		text-align: center;
+ 	} 
 	
-		
+	.article {
+		padding-bottom: 0;
+	}
+
+	.row {
+	    margin-right: 0; 
+    	margin-left: 0; 
+	}
+	
+	.image-code {
+	    width: 112%;
+	    padding: 8% 0 0;
+	    position: static;
+	}
+
+/*--------------------------#section-social-------------------------------*/
+
+	.name {
+    	width: 45%;
+	}
+
+	.left-arrow {
+		padding-top: 153px;
+	}
+
+	.right-arrow {
+		padding-top: 152px;
+	}
+	
+	.social ul li {
+		width: 32%;
+		margin: 0 auto;
+		float: none;
+		padding-right: 1%;
+		margin-bottom: 10%;
+	}
+	
+	#section-social {
+		padding-bottom: 0;
+	}
+
+/*--------------------------#people---------------------------------*/
+	
+	#people {
+		background-position: 50% 0%;
+	} 
+	
+	.list p {
+		text-align: center;
+	}
+
+	.list ul li {
+		display: block;
+		float: left;
+		width: 33%;
+		padding-bottom: 10%;
+	}
+
+/*--------------------------#pricing--------------------------------*/
+
+	#pricing .row div {
+		width: 44%;
+	}
+
+	.block-wrapper {
+		width: 82%;
+		margin: 0 auto;
+	}
+
+	.pricing-name {
+    	padding-bottom: 50px;
+    }
+	
+	.block {
+   		 padding-bottom: 9%;
+	}
+
+	.pricing-text p {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+
+/*------------------------------#newsletter------------------------------*/	
+	
+	#newsletter h1 {
+		padding-bottom: 0;
+	}
+
+	.form [name="email"] {
+    	width: 60%;
+	}
+
+	form {
+		padding-bottom: 5%;
+	}
+
+/*------------------------------#news------------------------------*/
+
+	.news-text-left h1,
+	.news-text-center h1, 
+	.news-text-right h1 {
+		padding-bottom: 30px;
+	}
+	
+
+	.button-news {
+		padding-bottom: 10%;
+	}
+
+/*------------------------------#footer------------------------------*/
+
+
+	.navigation {
+		float: right;
+		margin-right: 20%;
+		overflow: hidden;
+	}
+
+	.footer-logo {
+		width: 50%;
+		margin-bottom: 10%;
+		overflow: hidden;
+		float: left;
+	}
+
+	.contact {
+		width: 63%;
+		float: left;
+	}
+}	
+
 @media screen and (min-width: 1024px) and (max-width: 1255px){
 
+	header,
+	#banner, 
+	#article, 
+	#section-social,
+	#editor, 
+	.social, 
+	#people, 
+	#pricing, 
+	#newsletter,
+	#news,
+	#footer,
+	.content-icon,
+	#article h1,
+	.social ul li,
+	.pricing-name {
+		width: 100%;
+	}
+
+/*------------------------------header------------------------------*/
+
+	.logo {
+		width: 26%;
+	}
+
+	.button-top {
+		float: right;
+		margin-top: 1%;
+	}
+
+	nav a {
+		padding-right: 22px;
+	}
+
+	.small {
+        padding: 15px 45px 18px 50px;
+	}
+
+/*-------------------------------#article-------------------------------*/
 	
+	#article {
+		overflow: hidden;
+	}
+
+	#article h1 {
+		padding-bottom: 5%;
+		text-align: center;
+	}
+	
+	.article {
+		padding-bottom: 0;
+	}
+
+	.row {
+	    margin-right: 0; 
+    	margin-left: 0; 
+	}
+	
+	.image-code {
+	    width: 112%;
+	    padding: 8% 0 0;
+	    position: static;
+	}
+
+/*--------------------------#section-social-------------------------------*/
+
+	.name {
+    	width: 36%;
+    }
+	
+	.social {
+		margin-left: 3%;
+	}
+
+    .social ul li {
+		width: 30%;
+		margin: 0 auto;
+		float: none;
+		padding-right: 2%;
+	}
+
+	.sicial-button {
+    	width: 66%;
+	}
+
+/*--------------------------#pricing--------------------------------*/
+	
+	.pricing-name {
+		padding-bottom: 10%;
+	}
+
+	#pricing .row div {
+		width: 21%;
+	}
+
+	.block-wrapper {
+		display: flex;
+	    flex-flow: row wrap;
+	    justify-content: space-around;
+	}
+
+	.block {
+    	padding-bottom: 3%;
+	}
+
+	.block {
+		padding-bottom: 4%;
+	}
+
+	#bottom-two {
+		padding-bottom: 9%;
+	}
+
+	.purchase {
+   		 padding: 18px 28px 14px 27px;
+	}
+
+/*--------------------------#newsletter--------------------------------*/
+
+	#newsletter h1 {
+		padding-bottom: 0;
+	}
+
+
+	.form [name="email"] {
+		margin-right: 10%;
+	}
+
+	form {
+		padding-bottom: 3%;
+	}
+
+/*--------------------------#footer--------------------------------*/
+
+	#footer .logo {
+		width: 100%;
+	}

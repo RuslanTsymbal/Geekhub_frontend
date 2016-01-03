@@ -119,11 +119,15 @@ nav a:hover {
 .small {
 	font-size: 1.6rem;
 	line-height: 1.5rem;
-	padding: 15px 45px 18px 60px;
+	padding: 15px 45px 18px 54px;
 }
 
 .header-left {
 	padding-right: 0; 
+}
+
+.list-top {
+	display: none;
 }
 
 /*---------------------------------#banner---------------------------------*/
@@ -263,7 +267,9 @@ nav a:hover {
 	color: #8d81ac;
 	font-size: 4.8rem;
 	font-weight: 700;
-	padding-top: 17%;
+	padding-top: 8%;
+	width: 48%;
+	float: right;
 }
 
 .article h2 {
@@ -296,7 +302,7 @@ nav a:hover {
 	border-radius: 6px;
 }
 
-/*--------------------------#section-social---------------------------------*/
+/*--------------------------#section-social-------------------------------*/
 
 #section-social {
 	padding: 86px 0 55px;
@@ -455,7 +461,7 @@ nav a:hover {
 	padding-bottom: 100px;
 }
 
-.list{
+.list {
 	padding-top: 90px;
 	overflow: hidden;
 }
@@ -472,7 +478,11 @@ nav a:hover {
     height: 70px;
 }
 
-/*---------------------------------#pricing-----------------------------------*/
+.list p {
+    font-style: italic;
+}
+
+/*---------------------------------#pricing--------------------------------*/
 
 #pricing {
 	background-color: #4a3b4e;
@@ -529,7 +539,10 @@ nav a:hover {
 	padding-bottom: 23%;
 }
 
-#month:after {
+#month:after,
+#month-2:after,
+#month-3:after,
+#month-4:after  {
 	content: "";
     position: absolute;
     width: 84px;
@@ -661,7 +674,7 @@ nav a:hover {
 }
 
 .button-news a {
-	padding: 12px 19px 8px 24px;
+	padding: 12px 19px 8px 20px;
 	background-color: #f4f4f4;
 	border-radius: 4px;
 	color: #8d81ac;
