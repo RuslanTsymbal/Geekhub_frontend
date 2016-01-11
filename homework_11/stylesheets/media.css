@@ -1,0 +1,600 @@
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+	 html {
+		font-size: 50%;
+	}
+
+	header .row{
+		overflow: hidden;
+	}
+
+	nav {
+		display: none;
+	}
+	
+	.logo {
+		padding-left: 17%;
+	}
+
+	.logo span {
+		font-size: 4.5rem;
+		padding-top: 84%;
+	}
+	
+	#banner .name h1 {
+		line-height: 5rem;
+	}
+
+	#banner .name p {
+		padding-top: 8%;
+	}
+	
+	.view a {
+		padding-bottom: 7%;
+	}
+
+/*-----------------------------#description---------------------------------------*/
+
+	#description span {
+       font-size: 4rem;
+       padding: 3.5% 0 0 1.5%;
+    }
+
+    #description .description-logo {
+    	padding-right: 43%;
+    }
+
+/*-----------------------------#illustrations---------------------------------------*/
+	
+	#illustrations {
+		padding-top: 20%;
+	}
+
+	#illustrations .illustrations-top {
+		line-height: 3.5rem;
+	}
+
+	#illustrations .illustrations-top {
+		padding-bottom: 7%;
+	}
+
+	#illustrations img {
+   		width: 8%;
+   		padding-top: 0;
+   		left: 44%;
+   	}
+	
+	.illustrations-list .list-left-text h2,
+	.illustrations-list .list-right-text h2 {
+		font-size: 3rem;
+	}
+
+	.illustrations-list .list-left-text p,
+	.illustrations-list .list-right-text p {
+		font-size: 2rem;
+	}
+	
+	.icon i {
+	  	font-size: 4rem;
+	}
+
+/*-----------------------------#websites---------------------------------------*/
+	
+	.websites-top {
+		line-height: 3.5rem;
+		padding-bottom: 7%;
+	}
+
+	.websites-top img {
+		width: 10%;
+		padding-top: 0;
+		left: 42%;
+	}
+
+	.profile-left img {
+		position: static;
+	}
+
+	.profile-left .social {
+		margin-top: -16.6%;
+	}
+
+	.profile-left h2 {
+		padding-top: 0;
+		width: 100%;
+		line-height: 3rem;
+	}
+
+	.profile-left .social i {
+		font-size: 3rem;
+	}
+
+	.profile-right p {
+		line-height: 3rem;
+		font-size: 2rem;
+	}
+
+	.index i {
+	    color: #fc3;
+	    font-size: 4rem;
+	    padding: 20% 0 11%;
+	}
+
+	.index ul li {
+	 	border-right: 1px solid #ccc;
+	    border-bottom: 1px solid #ccc;
+	 }
+
+/*-----------------------------#work---------------------------------------*/
+
+	#work .categories ul li {
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+		margin-bottom: 3%;
+	}
+
+	.work-images .work-img .work-img-activ {
+	    padding: 31% 0 11%;
+	    width: 88%;
+	}
+
+/*---------------------------------#workflow-------------------------------------*/
+
+	.line-1 {
+		display: none;
+		border-left: none;
+	}
+
+	.heading .heading-row .icon {
+	    width: 30%;
+	}
+	
+	.heading .heading-row .icon i {
+        font-size: 5rem;    
+	}
+	
+	.heading .heading-row .heading-row-text p {
+ 	    width: 100%;
+ 	    padding-top: 4%;
+ 	}
+
+/*---------------------------------#table-------------------------------------*/
+
+	#table .plans .plan {
+		margin-bottom: 10%;
+	}
+	
+	.plan {	
+		float: none;
+	}
+
+/*---------------------------------#articles---------------------------------*/
+
+	#articles .articles-list span {
+		font-size: 1.7rem;
+	}
+
+	#articles .articles-list .article .article-text {
+		padding: 5% 0 5%;
+	}
+
+	#articles .l-col-6 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+ 
+ 	#articles .articles-list .article-bottom ul li a {
+ 		font-size: 1.6rem;
+ 		padding-right: 5%;
+ 	}
+
+ 	#articles .articles-list .article-bottom ul li {
+ 		display: block;
+ 		width: 100%;
+ 	}
+
+ 	#articles .articles-list .article-bottom {
+    	padding-top: 2%;
+    }
+
+    #articles .articles-list .article-futer .button {
+    	width: 44%;
+    	padding: 3%;
+    }
+
+ /*--------------------------------#contact-------------------------------------*/
+
+	#contact .contacts .form form li {
+		display: block;
+		width: 100%;
+		margin-bottom: 5%;
+	}
+
+	 #contact .contacts .contacts-top .information {
+	 	float: none;
+	 	margin-bottom: 6%;
+    }
+
+ /*--------------------------------#footer-------------------------------------*/
+
+	#footer .footer-left {
+		font-size: 2rem;
+	}
+	
+	#footer .footer-right {
+		padding-bottom: 5%;
+	}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+		
+	html {
+		font-size: 50%;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.logo {
+		padding-left: 31%;
+	}
+
+	.name h1 {
+		line-height: 5rem;
+	}
+	
+	#description span {
+		padding-top: 2.5%;
+	}
+
+	#illustrations img {
+		width: 7%;
+		padding-top: 0;
+		left: 44%;
+	}
+	
+	.illustrations-list .list-left-text h2 {
+		font-size: 3rem;
+	}
+
+
+	.illustrations-list .list-left-text p {
+		font-size: 2rem;
+	}
+
+	.websites-top img {
+		width: 8%;
+		padding-top: 0;
+		left: 44%;
+	}
+
+	.profile-left img {
+		position: static;
+	}
+
+	.profile-left .social {
+		margin-top: -14.9%;
+	}
+
+	.profile-left h2  {
+		padding-top: 7%;
+	}
+
+	.profile-right p {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+
+	.index ul li {
+	 	border-right: 1px solid #ccc;
+	    border-bottom: 1px solid #ccc;
+	 }
+
+	.employee img {
+	 	width: 60%;
+	}
+	
+	.employee .social i {
+	    font-size: 3rem;
+	    padding: 20% 0 20%;
+	}
+
+	.internet-communication-block
+	.internet-communication-left .internet-communication-share h2 {
+		font-size: 2.5rem;
+		padding-bottom: 2%;
+	}
+	
+	.internet-communication-block 
+	.internet-communication-left .internet-communication-share span {
+		font-size: 2rem;
+	}
+	
+	.internet-communication-right {
+		padding-top: 5%;
+	}
+
+	.internet-communication-right p {
+		font-size: 2rem;
+	}
+
+	#work .categories ul li {
+       padding: 1.5% 4% 1.5% 4%;
+       margin-right: 1%;
+    }
+		
+	.heading .heading-row .icon {
+    	width: 22%;
+    }
+
+    .heading .heading-row .heading-row-text p {
+    	width: 100%;
+    	padding-top: 5%;
+    	line-height: 2.5rem;
+    }
+
+    #table .plans .plan {
+    	margin-bottom: 10%;
+    }
+
+	#table .plans .plan .plan-price span:nth-child(even) {
+        padding-left: 28%;
+        margin-top: 3%;
+    }
+
+    #table .plans .plan .plan-text li {
+    	font-size: 2rem;
+    }
+	
+	#articles .articles-list .article {
+		margin-bottom: 5%;
+	}
+
+	#articles .articles-list .article-bottom ul li {
+ 		display: block;
+ 		width: 100%;
+ 	}
+	
+	#articles .articles-list .article-bottom ul li a {
+		font-size: 2rem;
+		padding-right: 5%;
+	}
+
+	#articles .articles-list span {
+		font-size: 1.7rem;
+	}
+
+	#articles .articles-list .article-futer .button {
+		padding: 3%;
+		width: 33%;
+	}
+	
+	#articles .l-col-6 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#articles .articles-list .article-futer .button a {
+		font-size: 2rem;
+	}
+	
+	#contact .contacts .contacts-top .information {
+		float: none;
+		margin-bottom: 10%;
+	}
+	
+	#contact .contacts .contacts-top .information .icon {
+		width: 24%;
+	}
+	
+	#contact .contacts .form form li {
+		display: block;
+		width: 100%;
+		margin-bottom: 5%;
+	}
+
+	 #contact .contacts .contacts-top .information {
+	 	float: none;
+	 	margin-bottom: 6%;
+    }
+
+    #footer p {
+    	font-size: 2rem;
+    	text-align: center;
+    }
+
+    #footer .footer-right {
+    	text-align: center;
+    	padding-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 767px){
+	
+	nav {
+		display: none;
+	}
+}
+	
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	
+	html {
+		font-size: 50%;
+	}
+
+	.logo {
+		float: none;
+		left: 36%;
+	}
+	
+	.menu {
+		width: 100%;
+	}
+
+	.menu a {
+		font-size: 1.6rem;
+		margin-left: 38px;
+	}
+
+	#illustrations img {
+    	width: 4%;
+    	left: 47%;
+        padding-top: 1.2%;
+    }
+
+    .list-left {
+		width: 50%;
+    }
+
+    .icon i {
+    	font-size: 5rem;
+    }
+
+    .websites-top img {
+    	width: 5%;
+    	padding-top: 1.5%;
+    }
+	
+	.heading .heading-row .icon {
+    	width: 14%;
+	}
+
+    .profile-left img {
+    	position: static;
+    }
+	
+	.profile-left,
+	.profile-right {
+		width: 50%;
+	}
+
+	.profile-right h3 {
+		font-size: 3rem;
+	}
+
+	.profile-right p {
+		width: 100%;
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+	
+	.profile-left .social {
+		margin-top: -18%;
+	}
+	
+	.profile-left h2 {
+		padding-top: 15%;
+	}
+	
+	.index ul li {
+	 	border-right: 1px solid #ccc;
+	    border-bottom: 1px solid #ccc;
+	 }
+
+	 .employee {
+	 	width: 33.3%;
+	}
+
+	.internet-communication-block .internet-communication-left {
+		width: 50%;
+	}
+	
+	#work .categories ul li {
+       padding: 1.5% 4% 1.5% 4%;
+       margin-right: 3%;
+    }
+
+	.work-images .work-img {
+       max-height: 128px;
+    }
+
+    .work-img:hover .work-img-activ {
+	    width: 84%;
+	    padding: 30% 0 1%;
+	}
+
+	#table .plans .plan {
+		width: 31%;
+		margin-right: 3%;
+	}
+
+	#table .plans .plan .plan-price {
+       padding: 13% 0 10% 11%;
+	}
+
+	#table .plans .plan .plan-price span:nth-child(even) {
+		padding-left: 45%;
+	}
+
+	#contact .contacts .contacts-top .information .icon {
+		width: 17%;
+	}
+
+	#contact .contacts .contacts-top .information {
+		float: none;
+		margin-bottom: 10%;
+	}
+
+	#articles .articles-list span {
+		font-size: 1.8rem;
+	}
+
+	#articles .articles-list h2 {
+		font-size: 2.5rem;
+		line-height: 3rem;
+	}
+
+	#articles .articles-list p {
+		font-size: 2rem;
+		padding-top: 4%;
+	}
+
+	#articles .articles-list .article-bottom ul li a {
+		font-size: 1.6rem;
+		padding: 6% 18% 6% 0;
+	}
+
+	#articles .articles-list .article-bottom .cleek span {
+		font-size: 1.9rem;
+	}
+
+	#articles .articles-list .article-futer .button {
+		padding: 2%;
+		width: 20%;
+	}
+
+	#articles .articles-list .article-futer .button a {
+		font-size: 2rem;
+	}
+
+	#footer .footer-left {
+		float: none;
+	}
+
+	#footer p {
+    	font-size: 2rem;
+    	text-align: center;
+    }
+
+    #footer .footer-right {
+    	text-align: center;
+    	padding-bottom: 4%;
+    }
+
+
+
+
+
+
+
+
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1255px){
+
+}
