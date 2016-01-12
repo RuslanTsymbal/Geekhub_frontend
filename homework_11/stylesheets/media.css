@@ -204,6 +204,10 @@
     	padding: 3%;
     }
 
+    #articles .articles-list .article {
+    	margin-bottom: 6%;
+    }
+
  /*--------------------------------#contact-------------------------------------*/
 
 	#contact .contacts .form form li {
@@ -585,16 +589,19 @@
     	text-align: center;
     	padding-bottom: 4%;
     }
-
-
-
-
-
-
-
-
-
 }
+
 @media screen and (min-width: 1024px) and (max-width: 1255px){
 
+		html {
+		font-size: 60%;
+	}
+
+	.menu ul {
+    	padding-top: 8%;
+	}
+	
+	#illustrations img {
+		padding-top: 2%;
+	}
 }
