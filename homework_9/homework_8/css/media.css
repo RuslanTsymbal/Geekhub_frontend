@@ -1,0 +1,676 @@
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+	 html {
+		font-size: 50%;
+	}
+
+	.top, .description, .portfolio, .services, .contact, footer, .portfolio-img img, .active, .active a, .services-unit {
+		max-width: 100%;
+	}
+
+	.text-top p, .text p, .contact-text p {
+       	font-size: 2rem;
+    	line-height: 3rem;
+   	}
+	
+	.text h2, .text p {
+		text-align: center;
+	}
+	
+	h2 {
+		font-size: 2rem;
+	}
+	
+	.wrapper {
+		max-width: 87.05%;
+	}
+	
+/*---------------------------top----------------------------------*/
+	
+	.logo {
+		float: none;
+		margin-left: 25%;
+	}
+
+	.logo a {
+        font-size: 5rem;
+        text-align: center;
+    }
+
+	.name {
+		width: 100%;
+		padding: 15% 0 3%;
+	}
+	
+	.text-top h1 {
+		font-size: 3rem;
+	}
+
+	.text h2, .text p {
+		text-align: center;
+	}
+
+/*---------------------------description--------------------------------*/
+
+	.text-top p {
+    	width: 100%;
+    }
+
+	.description-img {
+	    float: none;
+	    width: 80%;
+	    margin: 0 auto;
+	    padding: 5% 0;
+	}
+	
+	.description-img img {
+		width: 100%;
+	}
+
+	.text {
+		padding-bottom: 5%;
+	}
+
+	.text a {
+       	margin-left: 14%;
+	}
+
+/*---------------------------portfolio--------------------------------*/
+
+	.portfolio {
+	 	padding-top: 8%;
+	}
+
+	.portfolio-img {
+	    line-height: 0.5rem;
+	}
+
+   	figure {
+	    float: none;
+	}
+
+	.active {
+		height: 77%;
+	}
+	
+	.active a {
+		padding: 10% 12% 0;
+		display: block;
+		width: 35%;
+		margin: 27% 19%;
+		line-height: 0;
+	}
+
+	.active a:hover {
+		line-height: 0;
+	}
+
+/*---------------------------services--------------------------------*/
+
+	.services-unit {
+		float: none;
+		margin: 0 15% 10%;
+		overflow: hidden;
+		width: 73%;
+	}
+
+	.services-unit p {
+		text-align: center;
+		padding: 10% 8% 0;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.services-unit a {
+		width: 70%;
+		margin: 26px 0 19px 20px;
+	}
+
+/*---------------------------contact--------------------------------*/
+
+	.contact {
+	    padding-top: 10%;
+	}
+
+	.contact-text h2:after {
+	    left: 5%;
+    }
+
+	.address h3 {
+		font-size: 2rem;
+	}
+
+	.contact-text p {
+		padding-top: 6%;
+	}
+
+	.contact-form {
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 10%;
+	}
+
+	.contact-form [name="name"], [name="email"], .contact-form [name="subject"]  {
+    	width: 100%;
+   	}
+
+	.contact-form ul li {
+		text-align: center;
+		width: 100%;
+	}
+	
+	button {
+		margin: 32px 27px 60px;
+	}
+
+/*---------------------------footer--------------------------------*/
+
+	.footer-text p {
+		font-size: 1.8rem;
+		padding: 4% 0 4%;
+	}
+}
+ 
+@media screen and (min-width: 480px) and (max-width: 767px){
+		
+	html {
+		font-size: 50%;
+	}
+
+	.top, .description, .portfolio, .services, .contact, footer, .portfolio-img img, .active, .active a {
+		max-width: 100%;
+	}
+
+	.wrapper {
+		max-width: 87.05%;
+	}
+	
+	h2 {
+		font-size: 1.9rem;
+	}	
+	
+	.text-top p, .text p, .contact-text p {
+       	font-size: 2rem;
+    	line-height: 3rem;
+   	}
+	
+	.text h2, .text p {
+		text-align: center;
+	}
+
+	nav {
+		display: none;
+	}
+
+/*---------------------------top----------------------------------*/
+	
+	.logo {
+		float: none;
+		width: 41%;
+		margin: 0 auto;
+	}
+
+	.logo a {
+        font-size: 5rem;
+        text-align: center;
+    }
+
+	.name {
+		width: 100%;
+		padding: 15% 0 3%;
+	}
+	
+	.text-top h1 {
+		font-size: 3rem;
+	}
+
+	.text h2, .text p {
+		text-align: center;
+	}
+
+/*---------------------------description--------------------------------*/
+
+	.text-top p {
+    	width: 80%;
+    }
+
+	.description-img {
+	    float: none;
+	    width: 80%;
+	    margin: 0 auto;
+	    padding: 5% 0;
+	}
+	
+	.description-img img {
+		width: 100%;
+	}
+
+	.text {
+		padding-bottom: 5%;
+	}
+
+	.text a {
+       	margin-left: 28%;
+	}
+
+	.text h2:after {
+		right: 289px;
+	}
+/*---------------------------portfolio--------------------------------*/
+
+	.portfolio {
+	 	padding-top: 8%;
+	}
+
+	.portfolio-img {
+	    line-height: 0.5rem;
+	 }
+
+   	figure {
+	    float: none;
+	    margin: 0 24px 60px;
+	}
+
+	.active {
+		height: 285px;
+	}
+
+	.active a {
+		line-height: 0;
+		padding: 10% 4% 0 11%;
+		margin: 30% 27%;
+		display: block;
+	}
+
+	.active a:hover {
+		line-height: 0;
+	}
+
+/*---------------------------services--------------------------------*/
+
+	.services-unit {
+		float: none;
+		margin: 0 17% 7%;
+	}
+
+	.services-unit p {
+		width: 70%;
+		margin: 0 auto;
+		padding-left: 0;
+	}    
+
+	.services-unit a {
+		margin: 26px 0 28px 62px;
+	}
+	
+/*---------------------------contact--------------------------------*/
+
+	.contact {
+	    padding-top: 10%;
+	}
+
+	.contact-container {
+		overflow: hidden;
+		clear: both;
+	}
+	
+	form {
+		height: 100%;
+		padding-bottom: 0;
+	}
+
+	.contact-text {
+		float: none;
+		overflow: hidden;
+	}
+
+	.contact-text h2:after {
+	    left: 7%;
+    }
+
+	.address h3 {
+		font-size: 2rem;
+	}
+
+	.contact-text p {
+		padding-top: 6%;
+	}
+
+	.contact-form {
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 10%;
+		float: none;
+		overflow: hidden;
+	}
+
+	.contact-form [name="name"], [name="email"], .contact-form [name="subject"], .contact-form [name="message"]  {
+    	width: 100%;
+   	}
+
+	.contact-form ul li {
+		text-align: center;
+		width: 100%;
+	}
+	
+	button {
+		margin: 32px 100px 60px;
+		float: none;
+		width: 50%;
+	}	
+
+/*---------------------------footer--------------------------------*/
+	
+	footer {
+		width: 100%;
+		padding: 0% 0 0%;
+	}
+
+	.footer-text p {
+		font-size: 1.8rem;
+		padding: 5% 0 5%;
+	}
+
+
+	.footer-text{
+		width: 70%;
+		margin: 0 auto;
+	 	padding-top: 0px;
+	}
+}
+	
+@media screen and (max-width: 767px){
+	
+	nav {
+		display: none;
+	}
+}
+	
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+	.text-top p {
+		font-size: 1.5rem;
+	}
+	
+	.wrapper {
+		max-width: 87.05%;
+	}
+	
+	h2 {
+		font-size: 2rem;
+	}
+
+/*---------------------------top--------------------------------*/
+
+	.logo {
+		width: 26%;
+	    float: none;
+	    margin: 0 auto;
+	}
+
+	.logo a {
+		font-size: 4rem;
+	}
+
+	nav {
+		width: 100%;
+		margin: 0 auto;
+		float: none;
+		padding-top: 2%;
+	}
+
+	nav ul li {
+		width: 80%;
+		float: none;
+	}
+
+	.name {
+		padding-top: 10%;
+		width: 81%;
+	}
+
+/*---------------------------description--------------------------------*/
+
+	.description-img {
+		width: 40%;
+	}
+
+
+	.description-img img {
+		width: 100%;
+	}
+	
+	.text h2:after {
+        right: 261px;
+	}
+	
+	.text-bottom {
+		padding-bottom: 2%;	}
+
+	.button {
+		margin-left: 37%;
+	}
+
+/*---------------------------portfolio --------------------------------*/
+
+	.portfolio {
+		padding-top: 5%;
+	} 
+	
+	.list-portfolio {
+		overflow: hidden;
+	} 
+
+	
+	figure {
+		width: 45%;
+		margin-right : 8%;
+	}
+
+	figure:nth-child(even){
+		margin: 0;
+	} 
+
+	.portfolio-img {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.portfolio-text {
+		margin-top: -17px;
+	}
+
+	.portfolio-img  img {
+		width: 100%;
+	}
+	
+	figure {
+        margin-right: 10%;
+        margin-left: 0;
+	}
+	.active {
+		width: 100%;
+		height: 79%;
+	}
+
+	.active a {
+		width: 35%;
+		margin: 26% 21%;
+		line-height: 0;
+		padding: 10% 10% 0;
+	}
+
+	.active a:hover {
+		line-height: 0;
+	}
+
+/*---------------------------services--------------------------------*/	
+	
+	.services-unit {
+		margin: 0 11% 10% 4%;
+	}
+
+	.services-unit:nth-child(even) {
+		margin-right: 0;
+	} 
+
+	.services-list {
+    	margin-bottom: 25px;
+	}
+
+/*---------------------------contact--------------------------------*/		
+	
+	.contact-text h2:after {
+		left: 51px;
+	} 
+	
+	.contact-text {
+		float: none;
+	}
+
+	.contact-form {
+		float: none;
+		padding-top: 5%;
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	button {
+		    margin: 31px 175px 63px;
+	}
+}
+		
+@media screen and (min-width: 1024px) and (max-width: 1255px){
+
+	.top, .description, .portfolio, .services, .contact, footer, .portfolio-img img, .active, .active a {
+		max-width: 100%;
+	}
+
+	.wrapper {
+		max-width: 87.05%;
+	}
+	
+/*---------------------------top--------------------------------*/
+
+	.top {
+		background-size: avto;
+	}
+	
+	.header-bottom {
+	   	margin-bottom: 0;
+	}
+
+/*---------------------------Description--------------------------------*/
+
+	.text {
+		overflow: visible;
+		padding-bottom: 2%;
+	}
+
+	.text-top p {
+		font-size: 1.6rem;
+	}
+	
+	.text h2:after {
+		right: 307px;
+	}
+
+	.text p, .contact-text p {
+		font-size: 1.5rem;
+	}
+
+	.description-img {
+		width: 50%;
+	}
+
+	.description-img img {
+		width: 100%
+	}
+	
+	.button {
+		margin-left: 36%;
+	}
+
+/*---------------------------portfolio --------------------------------*/
+
+	.portfolio {
+		padding-top: 5%;
+	} 
+	
+	.list-portfolio {
+		overflow: hidden;
+	} 
+
+	figure {
+		width: 41%;
+		margin-right: 16%;
+	}
+
+	figure:nth-child(even){
+		margin: 0;
+	} 
+
+	.portfolio-img {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.portfolio-text {
+		margin-top: -17px;
+	}
+
+	.portfolio-img  img {
+		width: 100%;
+	}
+
+	.active {
+		height: 289px; 
+	}
+
+/*-----------------------------services------------------------------*/
+
+	.services-unit {
+		margin: 0 10% 5%;
+	}
+
+/*---------------------------contact--------------------------------*/
+	
+	.contact-text h2:after {
+		left: 68px;
+	}
+
+	.contact-text {
+		float: none;
+		margin-bottom: 5%;
+		max-width: 100%;
+	}
+	
+	.contact-text p {
+		width: 100%;
+	}
+
+	.contact-form {
+		margin: 0 auto;
+		float: left;
+		max-width: 100%;
+	}
+	
+	.contact-form [name="name"],[name="email"] {
+		width: 95%;
+	} 
+	
+	button {
+		margin-right: 32%;
+	}
+
+	form {
+		width: 65%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+}
+
+	
+
