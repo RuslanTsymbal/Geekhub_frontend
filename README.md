@@ -12,7 +12,9 @@ Homework-GeekHub Frontend
 7. Homework#7 (виправлена)
 8. Homework#8
 9. Homework#9 (responsive homework 5_7_8)
-10. Homework#10 
-11. Homework#11 
+10.Homework#10 
+11.Homework#11
+12.Homework#12 ---
+13.Homework#13 (калькулятор)
 
 
