@@ -1,0 +1,37 @@
+
+body {
+    background-image: url(../images/bg.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: #fff;
+}
+
+h2 {
+    color: #f8fb0a;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+#carousel-example-generic {
+    margin-top: 5%;
+}
+
+.item {
+    background-color: #fff;
+    width: 100%;
+}
+
+.carousel-inner {
+    margin-bottom: 10%;
+}
+
+.item img {
+    width:100%;
+    height: auto;
+}
+
