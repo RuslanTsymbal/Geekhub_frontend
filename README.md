@@ -15,6 +15,7 @@ Homework-GeekHub Frontend
 10.Homework#10 
 11.Homework#11
 12.Homework#12 ---
-13.Homework#13 (калькулятор)
+13.Homework#13 (таймер)
+14.Homework#14 (Slider)
 
 
