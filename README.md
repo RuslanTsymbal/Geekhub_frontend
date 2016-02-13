@@ -17,5 +17,6 @@ Homework-GeekHub Frontend
 12.Homework#12 ---
 13.Homework#13 (таймер)
 14.Homework#14 (Slider)
+15.Homework#15 (сам index файл я не переробляв під НTML5, тільки використав для нового завдання)
 
 
