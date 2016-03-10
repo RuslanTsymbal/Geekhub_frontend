@@ -1,0 +1,579 @@
+@import url(../fonts/nexabold/styles.css);
+@import url(../fonts/proximanova/styles.css);
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "ProximaNova";
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+		text-decoration: none;
+}
+
+/*----------------------------header---------------------------------*/
+
+#header {
+	background-color: #111;
+}
+
+.container-fluid {
+	width: 72%;
+	overflow: hidden;
+}
+
+.menu-top {
+	overflow: hidden;
+	padding-bottom: 1%;
+}
+.menu-top .menu ul li {
+	display: inline-block;
+	padding-right: 3%;
+}
+
+.menu-top .menu ul li:last-child {
+	padding-right: 0;
+}
+
+.menu-top .menu ul li a {
+	color: #ccc;
+	font-family: "NexaBold";
+	font-weight: 400;
+	line-height: 4.1rem;
+	text-transform: uppercase;
+}
+
+.menu {
+	padding-top: 2.4%;
+}
+
+.menu span {
+	float: left;
+	padding: 2.3% 5% 0 0;
+	color: white;
+}
+
+a.fa.fa-home {
+	color:  white;
+}
+
+a.fa.fa-home:hover,
+.menu-top .menu ul li a:hover,
+.logo h1 a:hover {
+	color:  red;
+	transition: 1s;
+}
+
+.logo h1 a {
+	color: white;
+	font-size: 2.4rem;
+	line-height: 4.1rem;
+	padding-bottom: 2%;
+	text-transform: capitalize
+}
+
+/*------------------------------#text-blog-------------------------------*/
+
+.menu-bottom {
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+.menu-bottom-nav ul li {
+	display: block;
+	float: left;
+	padding: 1% 5% 1% 0;
+}
+
+.menu-bottom-nav ul li:nth-child(3) {
+	width: 25%;
+}
+
+.menu-bottom-nav ul li a {
+	color: #555;
+	font-family: "NexaBold";
+	line-height: 4.1rem;
+	padding-right: 3%;
+	vertical-align: baseline;
+}
+
+.menu-bottom-nav ul li a:hover { 
+    color: red;
+    transition: 1s;
+   }
+
+.menu-bottom-nav {
+	float: right;
+}
+
+/*-------------------------------.content-top------------------------------*/
+
+
+.title {
+	text-align: center;
+}
+
+.content-top-text {
+	text-align: left;
+}
+
+.title h1 {
+	color: #111;
+	font-family: "NexaBold";
+	font-size: 4.8rem;
+	line-height: 5rem;
+	display: block;
+	width: 77%;
+	margin: 0 auto;
+	padding-top: 11%;
+}
+
+.title span {
+	color: #555;
+	font-size: 1.4rem;
+	font-weight: 600;
+	line-height: 5rem;
+}
+
+
+.image-top {
+	width: 100%;
+	padding-bottom: 8%;
+}
+
+.content-top-text p {
+	text-align: left;
+}
+
+.content-top-text p {
+	color: #111;
+	font-weight: 400;
+	line-height: 2rem;
+}
+
+.content-top-text p:nth-child(3) {
+	padding: 2% 0 3%;
+}
+
+
+.image-center {
+	width: 40%;
+	margin: 0 auto;
+	padding: 2% 0 2%;
+}
+
+.img-top {
+	padding-bottom: 5%;
+}
+
+.content-top-bottom h2 {
+	font-size: 2.8rem;
+	font-weight: 600;
+	color: #111;
+	line-height: 2rem;
+	padding: 2% 0 3%;
+}
+
+.content-top-bottom p {
+	color: #111;
+	line-height: 2rem;
+}
+
+.content-top-bottom p:nth-child(3) {
+	padding: 0 0 3%;
+}
+
+.image-bottom {
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 4%;
+}
+
+.content-top-bottom {
+	overflow: hidden;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.social {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 6% 0 3%;
+}
+
+.social ul li {
+	display: inline-block;
+	padding-right: 2%;
+}
+
+.social ul li a {
+	color: #111;
+	font-size: 2rem;
+	padding-right: 4%;
+}
+
+.social ul li a:hover {
+	color:red;
+	transition: 1s;
+}
+
+.social p {
+	color: #111;
+	font-weight: 600;
+	line-height: 2rem;
+	padding-bottom: 0;
+}
+
+.number {
+	color: white;
+	font-size: 11px;
+	display: inline-block;
+	background-color: #111;
+	padding: 5px 11px 5px 11px;
+	border-radius: 4px;
+}
+
+a.fa.fa-twitter,
+a.fa.fa-facebook,
+a.fa.fa-pinterest-p {
+    padding-right: 6px;
+}
+
+/*-------------------------#comments-----------------------------*/
+
+#comments h1 {
+	color: #111;
+	font-family: "NexaBold";
+	font-size: 3.4rem;
+	font-weight: 400;
+	line-height: 5rem;
+	padding-top: 2%;
+}
+
+.coment-img {
+	float: left;
+	width: 12%;
+	overflow: hidden;
+	padding-top: 2%;
+	overflow: hidden;
+
+}
+
+.coment-text {
+	overflow: hidden;
+}
+
+.coment-text h2 {
+	color: #111;
+	font-size: 2.4rem;
+	font-weight: 600;
+}
+
+.coment-text p {
+	color: #111;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 2rem;
+}
+
+.coment-text span {
+	color: #555;
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+
+.coment {
+	overflow: hidden;
+	margin-bottom: 3%;
+}
+
+.coment i {
+	color: #555;
+	padding-right: 1%;
+}
+
+.coment a {
+	color: #555;
+	font-size: 1.6rem;
+}
+
+.coment a:hover {
+	color: red;
+	transition: 1s;
+}
+
+.even {
+	padding-left: 10%;
+} 
+
+/*--------------------------#form-blog-----------------------------*/
+
+#form-blog {
+	padding: 3% 0 15%;
+}
+
+#form-blog h1 {
+	color: #111;
+	font-family: "NexaBold";
+	font-size: 3.4rem;
+	font-weight: 800;
+	line-height: 5rem;
+}
+
+#email,
+#name {
+	width: 40%;
+	margin-bottom: 2%;
+}
+
+#message {
+	width: 70%;
+}
+
+#form-blog label  {
+	color: #111;
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+
+/*-----------------------------#footer-----------------------------*/
+
+#footer {
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.footer-centre {
+	border-top: 1px solid #999;
+	overflow: hidden;
+	padding: 2% 0 2%;
+}
+
+.menu-footer {
+	padding-top: 1%;
+}
+
+.menu-footer ul li {
+	display: inline-block;
+	margin-right: 3%;
+}
+
+.menu-footer ul li a {
+	color: #555;
+	font-size: 1.4rem;
+	font-weight: 600;
+	line-height: 2.2rem;
+}
+
+.menu-footer ul li a:hover {
+	color: red;
+	transition: 1s;
+}
+
+.social-footer {
+	text-align: center;
+}
+
+.social-footer ul li  {
+	display: inline-block;
+	margin-right: 3%;
+	background-color: #111;
+	padding: 11px 16px 10px 13px;
+	border-radius: 22px;
+}
+
+.social-footer ul li:nth-child(4) {
+	padding: 11px 10px 10px 13px;
+
+}
+.social-footer ul li a {
+	color: #fff;
+}
+
+.social-footer ul li a:hover {
+	color: red;
+	transition: 1s;
+}
+
+.footer-right {
+	padding-top: 1%;
+	padding-left: 8%;
+}
+
+.footer-right span,
+.footer-right a {
+	color: #555;
+	font-size: 1.4rem;
+	font-weight: 600;
+	line-height: 2.2rem;
+}
+
+.footer-right a:hover {
+	color: red;
+	transition: 1s;
+}
+
+/*---------------------------PAGE HOME--------------------------------*/
+
+.content-home p {
+	text-align: left;
+}
+
+.img-home {
+	padding: 3% 0 5%;
+}
+
+.text-home-bottom {
+	text-align: left;
+}
+
+.text-home-bottom i {
+	color: #111;
+	margin-right: 0.5%;
+}
+
+.text-home-bottom a {
+	color: #111;
+	font-size: 1.6rem;
+	font-weight: 600;
+	line-height: 2rem;
+}
+
+.text-home-bottom a:hover {
+	color: red;
+	transition: 1s;
+}
+
+.text-home-bottom {
+	border-bottom: 1px solid #b7b7b7;
+	padding-bottom: 5%;
+}
+
+.bottom-line {
+	border-bottom: none;
+}
+
+.pagination-home {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2% 0 10%;
+	overflow: hidden;
+}
+
+.pagination-home ul li {
+	display: inline-block;
+	padding-right: 3%;
+}
+
+
+.pagination-home ul li a {
+	font-size: 1.6rem;
+	font-weight: 600;
+	line-height: 2rem;
+	color: #111;
+}
+
+.pagination-home ul li a:hover {
+	color: red;
+	transition: 1s;
+}
+
+#color,
+#color-2 {
+	background-color: #111;
+	color: #fff;
+	padding: 5px;
+	font-size: 1.6rem;
+}
+
+#color a:hover {
+	color: red;
+}
+
+#color-2 a:hover {
+	color: red;
+}
+
+/*-------------------------PAGE ABOUT----------------------------------*/
+
+#about-terxt-top p {
+	text-align: left;
+}
+
+#about-terxt-top h1 {
+	padding-bottom: 4%;
+}
+
+#about-terxt-top p:nth-child(3) {
+	padding: 2% 0 2%;
+}
+
+#about-terxt-top p:nth-child(4) {
+	padding-bottom: 3%;
+}
+
+#about-terxt-top p:nth-child(5) {
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 3%;
+}
+
+/*-------------------#about-terxt------------------------------*/
+
+.about-description {
+	text-align: center;
+}
+
+#about-terxt h1 {
+	color: #111;
+	font-family: "NexaBold";
+	font-size: 4.8rem;
+	font-weight: 400;
+	line-height: 5rem;
+	text-align: center;
+	padding: 3% 0 3%;
+}
+
+.description h2 {
+	color: #111;
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+.description span {
+	color: #555;
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+.description p {
+	color: #111;
+	font-size: 1.6rem;
+	font-weight: 400;
+	padding-top: 2%;
+	display: block;
+	overflow: hidden;
+}
+
+.about-content-top {
+	padding-bottom: 4%;
+	overflow: hidden;
+}
+
+.about-content-bottom {
+	padding-bottom: 17%;
+	overflow: hidden;
+}
+
+#about-img-right {
+	padding-bottom: 5%;
+}
