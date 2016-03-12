@@ -132,7 +132,7 @@ Template Name: Blog
 		<section id="form-blog">
 			<div class="container-fluid">
 				<h1><?php echo get_cat_name(7); ?></h1>
-				<form role="form">
+				<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" role="form" >
   					<div class="form-group">
 					    <label for="name">Name *</label>
 					    <input type="text" class="form-control" id="name" required>
