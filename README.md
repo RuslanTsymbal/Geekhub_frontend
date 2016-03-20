@@ -19,6 +19,6 @@ Homework-GeekHub Frontend
 14.Homework#14 (Slider)
 15.Homework#15 
 16.Homework#19 (WordPress/1)
-16.Homework#20 (WordPress/2)
-
+17.Homework#20 (WordPress/2)
+17.Homework#21 (WordPress/3)
 
