@@ -1,0 +1,982 @@
+@import url(../fonts/Arial/styles.css);
+@import url(../fonts/Oswald/styles.css);
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Arial;
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+
+.container-fluid {
+	width: 90%;
+	margin: 0 auto;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*------------------------header-----------------------------------*/
+
+header {
+	background: url(../img/bg-header.jpg) repeat;
+	background-size: cover;
+}
+
+.header-top {
+	overflow: hidden;
+}
+
+.header-bottom {
+	background-color: #ffd500;
+	text-align: center;
+}
+
+.header-bottom ul {
+    margin-bottom: 0;
+    font-size:0;
+}
+
+.header-bottom ul li {
+	display: inline-block;
+	margin: 1.5% 0 1.5%;
+	border-right: 1px solid #ffe76e;
+	border-left: 1px solid #ffe76e;
+	padding: 0.5% 1% 0.5% 1%;
+}
+
+.header-bottom ul li:nth-child(even){
+	border-right: none;
+	border-left: none;
+}
+
+.header-bottom ul li:last-child {
+	border-right: none;
+}
+
+.header-bottom ul li:first-child {
+	border-left: none;
+}
+
+.nav li a {
+	padding: 1px 9px;
+}
+
+.nav li a:hover {
+	background-color: transparent;
+}
+.header-bottom ul li a {
+	color: black;
+	font-family: "Oswald";
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.header-bottom ul li:hover {
+	background-color: #fff;
+	transition: 1s;
+}
+
+.logo {
+	font-family: "Oswald";
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+.logo h1 {
+	color: #ffd500;
+	font-weight: 300;
+	display: inline-block;
+	padding: 0 0.5% 1.5% 0;
+	font-size: 3rem;
+}
+
+.logo span {
+	color: white;
+	font-weight: 700;
+	font-size: 3.4rem;
+}
+
+.search input  {
+	float: left;
+	border: none;
+	background-color: #2c2c2b;
+	display: block;
+	padding: 6% 0 6% 6%;
+}
+
+.search button {
+	background-color: #2c2c2b;
+	border-left: 1px solid #454544 ;
+	padding: 6% 7% 6.4% 6%;
+	border-top:none;
+	border-bottom: none;
+	border-right: none;
+	font-size: 1.6rem;
+}
+
+.search form {
+	color: #a7a7a4;
+	font-size: 1.2rem;
+	font-weight: 400;
+	padding-top: 3%;
+	overflow: hidden;
+	width: 35%;
+	float: right;
+
+}
+
+/*--------------------------#wrapper---------------------------------*/
+
+#wrapper {
+	background: url(../img/bg-wrapper.png) repeat-x;
+}
+
+#content-left {
+	padding-top: 2%;
+	width: 68%;
+	float: left;
+	overflow: hidden;
+	margin-right: 3%;
+}
+
+.item img {
+	width: 100%; 
+}
+
+.item {
+	height: 330px;
+}
+
+.carousel-text {
+	color: #ececec;
+	font-family: "Oswald";
+	background-color: #222;
+	border-top: 3px solid #ffd500;
+}
+
+.carousel-text h2 {
+	font-size: 2.2rem;
+    font-weight: 400;
+    padding: 1.5% 0 1% 2%;
+}
+
+.carousel-text p {
+	font-size: 1.5rem;
+	font-weight: 300;
+	line-height: 1.4rem;
+	padding: 0 0 2% 2%;
+}
+
+.title-dlog-post h3 {
+	color: white;
+	font-family: "Oswald";
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.4rem;
+	text-transform: uppercase;
+	padding: 3% 0 7% 2%;
+}
+
+.title-dlog-post {
+	background: url(../img/bg-title-post.png) no-repeat;
+	background-size: cover;
+	margin-top: 7%;
+}
+
+/*--------------------------.dlog-post---------------------------------*/
+
+.dlog-post-content {
+	overflow: hidden;
+	margin-bottom: 5%;
+}
+
+.dlog-post-content:nth-child(5) {
+	margin-bottom: 0;
+}
+
+.dlog-post-date {
+	float: left;
+	width: 10%;
+	overflow: hidden;
+}
+
+.dlog-post-text {
+	overflow: hidden;
+	border-bottom: 2px solid #e7e7e7;
+	padding-top: 3%;
+}
+
+.dlog-post-text h4 {
+	color: #222;
+	font-family: "Oswald";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+.dlog-post-text p {
+	color: #a5a4a4;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 2.4rem;
+	padding-top: 2%;
+}
+
+.dlog-post-date span {
+	display: block;
+	text-align: center;
+}
+
+.comment ul li {
+	display: inline-block;
+	width: 18%;
+	overflow: hidden;
+	background-color: #ecebeb;
+	padding: 0 0% 0 0;
+	margin-right: 1%;
+}
+
+.comment a,
+.comment span {
+	color: black;
+	font-size: 1.2rem;
+	font-weight: 700;
+	line-height: 2.4rem;
+	padding-left: 7%;
+	padding-right: 4%;
+}
+
+span .fa-comment {
+	color: black;
+	font-size: 1.2rem;
+	font-weight: 700;
+	line-height: 2.4rem;
+	padding-left: 7%;
+}
+
+.comment .fa {
+   color: #a09e9e;
+	padding-right: 3%;
+}
+
+.comment ul li:hover {
+    background-color: #ffd500;
+    transition: 1s;
+}
+
+.dlog-post-date,
+.post-date-within {
+	background-color: #c3c3c3;
+}
+
+.post-date-within {
+	border: 1px solid #ddd;
+}
+
+.dlog-post-date {
+	padding: 0.5%;
+	color: black;
+	font-family: "Oswald";
+	text-transform: uppercase;
+	margin-right: 3%;
+}
+
+.dlog-post-date span:first-child {
+	font-size: 3.6rem;
+	font-weight: 700;
+}
+
+
+.dlog-post-date span:last-child {
+	font-size: 1.4rem;
+	font-weight: 300;
+}
+
+.reading {
+	width: 27%;
+	background-color: #ffd500;
+	padding: 2% 1% 2% 1%;
+	margin: 0 0 3% 0;
+	background-image: url(../img/arrow.jpg) no-repeat 0 10px;
+	margin-top: 1%;
+}
+
+.reading:hover {
+	background-color: #EADA00;
+	transition: 1s;
+}
+
+.reading a {
+	color: #2c2c2b;
+	font-family: "Oswald";
+	font-size: 1.4rem;
+	font-weight: 300;
+	line-height: 1.4rem;
+	text-transform: uppercase;
+	background: url(../img/arrow.jpg) no-repeat 100%;
+	padding-right: 20%;
+}
+
+.pagination {
+	width: 100%;
+	text-align: right;
+	margin: 0;
+	padding-bottom: 20%;
+}
+
+.pagination-page {
+	width: 20%;
+	float: right;
+	margin-top: 2%;
+}
+
+.pagination-page ul li {
+	margin-right: 1%;
+	display: inline-block;
+}
+
+.pagination li a {
+	background-color: #e6e6e6;
+	color: #565656;
+}
+.pagination li a:hover {
+	background-color: #454545;
+	color: #fff;
+	transition: 1s;
+}
+
+.pagination li:last-child a, 
+.pagination>li:last-child span {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.pagination li:first-child a, 
+.pagination>li:first-child span {
+    margin-left: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+/*-------------------------#footer-------------------------------*/
+
+#footer {
+	background: url(../img/bg-header.jpg) repeat;
+	background-size: cover;
+}
+
+.footer-left span{
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.footer-left {
+	padding: 2% 0 2%;
+}
+
+.footer-right {
+	text-align: right;
+	padding-top: 1.5%;
+}
+
+.footer-right ul li {
+	display: inline-block;
+	background-color: #c2c2c2;
+	padding: 1% 2% 1% 2%;
+	border-radius: 3px;
+	margin-left: 1%;
+}
+
+.footer-right ul li:hover {
+	background-color: #ffd500;
+	transition: 1s;
+}
+
+.footer-right ul li a {
+	color: #111110;
+	font-size: 2rem;
+}
+
+/*---------------------#sidebar---------------------------------*/
+
+#sidebar {
+	overflow: hidden;
+	margin-top: 2%;
+}
+
+.sidebar-form  h2 {
+	color: #222;
+	font-family: "Oswald";
+	font-size: 1.6rem;
+	font-weight: 800;
+	line-height: 1.4rem;
+	text-transform: uppercase;
+	padding-bottom: 2%;
+}
+
+.sidebar-form {
+	overflow: hidden;
+	background-color: #fff;
+	padding-left: 5%;
+	border-bottom: 2px solid #e6e6e6;
+}
+
+.sidebar-form form ul li {
+	margin-bottom: 3%;
+}
+
+.sidebar-form form input {
+	background-color: #e2e2e2;
+	border: 1px solid #b7b7b7;
+	padding: 1% 0 1% 2%;
+	width: 95%;
+}
+
+#submit {
+	background-color: #ffd500;
+	width: 36%;
+	margin: 4% 0 4%;
+}
+
+#submit button  {
+	background-color: #ffd500;
+	padding: 8% 25% 8% 8%;
+	background: url(../img/arrow.jpg) no-repeat 94% 3px;
+	border: none;
+	width: 99%;
+	color: #2c2c2b;
+	font-family: "Oswald";
+	font-size: 1.4rem;
+	font-weight: 300;
+	line-height: 1.4rem;
+	text-transform: uppercase;
+}
+
+.popular {
+	background: url(../img/bg-popular.png) repeat;
+	background-size: auto;
+	padding-bottom: 2%;
+	margin-bottom:8%;
+}
+
+.popular-title {
+	background: url(../img/bg-title-post.png) no-repeat;
+}
+
+.popular h2 {
+	color: white;
+	font-family: "Oswald";
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.4rem;
+	text-transform: uppercase;
+	padding: 4% 4% 14% 6%;
+}
+
+
+.popular-text ul li {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 5% 3% 5% 3%;
+	margin-bottom: 3%;
+	color: #222;
+}
+
+.popular-text a {
+	color: #222;
+	font-family: Oswald;
+	font-size: 16px;
+	font-weight: 400;
+}
+.popular-text ul li:hover {
+     background-color : #ffd500;
+}
+
+.popular-text  a {
+	font-family: "Oswald";
+	font-size: 1.6rem;
+	font-weight: 700;
+	margin: 0;
+}
+
+.categories {
+    background: url(../img/bg-popular.png) repeat;
+	background-size: auto;
+	padding: 0 3% 1% 3%;
+}
+
+.categories h2 {
+	color: #222;
+	font-family: "Oswald";
+	font-size: 1.6rem;
+	font-weight: 800;
+	line-height: 1.4rem;
+	text-transform: uppercase;
+	padding: 4% 0 2% 3%;
+}
+
+.categories  ul li {
+	background-color: #454545;
+	padding: 2% 0 2% 3%;
+	margin-bottom: 2%;
+}
+
+.categories  ul li:hover {
+	background-color: #ffd500;
+}
+
+.categories span:first-child:hover {
+	color: #312e20;
+}
+
+.categories span:first-child {
+	color: #b6b6b6;
+	font-size: 1.4rem;
+	font-weight: 400;
+	padding: 0 50.8% 0 2%;
+}
+
+.categories span:last-child {
+	color: #342f2f;
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 2.7rem;
+	background-color: #ffd500;
+	padding: 1.5% 4% 1.5% 4%;
+}
+
+.banner {
+	margin-top: 10%;
+}
+
+/*--------------------------Page3---------------------------------*/
+
+.gallery {
+	padding: 1% 1% 0 1%;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.gallery-img {
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	width: 49%;
+	position: relative;
+	overflow: hidden;
+}
+
+.gallery-img img {
+	width: 100%;
+}
+
+.gallery-img:nth-child(odd) {
+	margin-right: 0;
+}
+
+.gallery-img ul li:hover {
+	
+}
+
+.active-gallery {
+	 position: absolute;
+     top: 0;
+	 padding-left: 3%;
+	 padding-right: 3%;
+	 padding-top: 41%;
+	 opacity: 0;
+}
+
+.active-gallery:hover {
+	background-color: #222;
+	opacity: 0.86;
+	transition: 1s;
+}
+
+.active-gallery p {
+	color: white;
+	font-family: "Oswald";
+	font-size: 1.6rem;
+	font-weight: 300;
+	line-height: 2.4rem;
+}
+
+.description {
+	position: absolute;
+	background-color: #ffd500;
+	top: 0;
+	padding: 2% 2% 2% 2%;
+}
+
+.description span {
+	color: #222;
+	font-family: "Oswald";
+	font-size: 1.6rem;
+	font-weight: 300;
+	line-height: 1.4rem;
+	text-transform: uppercase;
+}
+
+.description:hover {
+	 opacity: 1;
+}
+
+.title-gallery h1 {
+	color: white;
+	font-family: "Oswald";
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.4rem;
+	text-transform: uppercase;
+	padding: 0 0 6% 2%; 
+}
+
+.title-gallery {
+	background: url(../img/bg-title-post.png) no-repeat;
+	overflow: hidden;
+}
+
+/*--------------------Page5--------------------------------*/
+
+.contact-text {
+	float: left;
+	width: 37%;
+}
+
+.contact-text h1 {
+	color: #272726;
+	font-family: "Oswald";
+	font-size: 3.6rem;
+	font-weight: 700;
+	line-height: 2.4rem;
+	text-transform: uppercase;
+	padding-bottom: 3%;
+}
+
+.contact-text span {
+	font-size: 1.4rem;
+	color: #040303;
+	font-weight: 700;
+	line-height: 2.4rem;
+}
+
+.contact-text  p {
+	color: #878585;
+	font-weight: 400;
+	font-size: 1.4rem;
+	padding-top: 4%;
+}
+
+.contact-form {
+	background: url(../img/bg-popular.png) repeat;
+    background-size: auto;
+    padding: 1% 2% 0.5% 2%;
+    overflow: hidden;
+    margin-bottom: 6%;
+}
+
+.contact-form ul li {
+	margin-bottom: 1%;
+	border: none;
+}
+
+.contact-form input {
+	border: none;
+	background-color: #ddd;
+}
+
+#name,
+#email,
+#tel {
+	width: 58%;
+	padding: 1% 0 1% 1%;
+}
+
+.contact-form textarea {
+	background-color: #ddd;
+}
+
+.contact-form h2 {
+	color: #222;
+	font-family: "Oswald";
+	font-size: 1.6rem;
+	font-weight: 800;
+	line-height: 1.4rem;
+	text-transform: uppercase;
+	padding-bottom: 2%;
+}
+
+
+#submit-contact button {
+	background-color: #ffd500;
+    padding: 11% 43% 11% 2%;
+    background: url(../img/arrow.jpg) no-repeat 94% 7px;
+    border: none;
+    width: 99%;
+    color: #2c2c2b;
+    font-family: "Oswald";
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+    text-transform: uppercase;
+}
+
+#submit-contact {
+	background-color: #ffd500;
+	width: 13%;
+	margin: 4% 0 2%;
+}
+
+#submit-contact:hover {
+	background-color: #EADA00;
+	transition: 1s;
+}
+
+/*-------------------------#sidebar2------------------------------*/
+
+#sidebar2 {
+	overflow: hidden;
+	background-color: #f9f9f9;
+	padding: 0 2% 2% 2%;
+	border-bottom: 2px solid #e6e6e6;
+	margin-top: 2%;
+}
+
+.contact-tel,
+.contact-email {
+	background-color: #ffd500;
+	overflow: hidden;
+
+}
+
+.contact-tel {
+	color: #272726;
+	font-family: "Oswald";
+	font-size: 1.8rem;
+	font-weight: 700;
+	line-height: 2.4rem;
+	text-transform: uppercase;
+	overflow: hidden;
+	width: 100%;
+	padding: 2% 0 2% 0%;
+	margin-bottom: 3%;
+}
+
+.contact-tel span {
+	background: url(../img/phone2.png) no-repeat 7% 11%;
+	padding-left: 18%;
+}
+
+.contact-email {
+	color: #272726;
+	font-family: "Oswald";
+	font-size: 1.8rem;
+	font-weight: 300;
+	line-height: 2.4rem;
+	text-transform: uppercase;
+	padding: 2% 0 2% 0%;
+}
+
+.contact-email span {
+	background: url(../img/info.png) no-repeat 7% 11%;
+	padding-left: 18%;
+}
+
+.contact-text-right {
+	color: #7f7c7c;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 1.4rem;
+}
+
+.single-img {
+	text-align: center;
+	padding-bottom:3%;
+}
+
+.single-top {
+	padding-top:5%;
+}
+
+#text-single {
+	text-align: center;
+}
+
+.sidebar3 {
+	margin-top: 4%;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+	width: 56%;
+	color: #7f7c7c;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+	background-color: #ffd500;
+	padding: 4% 19% 3% 4%;
+	background-image: url(../img/arrow.jpg) no-repeat 94% 3px;
+	border: none;
+	width: 40%;
+	color: #2c2c2b;
+	font-family: "Oswald";
+	font-size: 1.4rem;
+	font-weight: 300;
+	line-height: 1.4rem;
+	text-transform: uppercase;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+	background: url(../img/arrow.jpg) no-repeat 89% 7px;
+	background-color: #ffd500;
+}
+
+.title-about {
+	width: 85%;
+	background: url(../img/bg-title-post.png) no-repeat;
+	background-size: cover;
+	margin-top: 7%;
+}
+
+.title-about  h3 {
+	color: white;
+	font-family: "Oswald";
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.4rem;
+	text-transform: uppercase;
+	padding: 3% 0 7% 2%;
+}
+
+.popular-text a {
+	font-size: 1.4rem;
+	font-weight: 400;
+	padding: 0 50.8% 0 0%;
+	color: #b6b6b6;
+	font-family: "Oswald";
+	font-weight: 700;
+	margin: 0;
+	color: #222;
+}
+
+.popular-text-bottom ul li a  {
+	color: #b6b6b6;
+}
+
+.popular-text-bottom ul li a:hover {
+	color: #312e20;
+}
+
+.textwidget img {
+	width: 100%;
+}
+
+li {
+	list-style-type: none;
+}
+
+.popular-text ul,
+.popular-text-bottom ul {
+	margin-left: 0;
+}
+
+.popular-text-bottom ul li a {
+	color: #b6b6b6;
+	font-size: 1.4rem;
+	font-weight: 400;
+	padding: 0 50.8% 0 2%;
+}
+
+.post-text {
+	overflow: hidden;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+	margin-bottom: 3%;
+	border-radius: 0px ;
+}
+
+.categoty-text p {
+	color: #a5a4a4;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 2.4rem;
+}
+
+input.wpcf7-form-control.wpcf7-text {
+	padding: 11px 8px 12px 15px;
+	margin-bottom: 10px;
+	color: #7f7c7c;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea {
+	color: #7f7c7c;
+	font-size: 14px;
+	padding:  11px 0 0 15px;
+}
+
+#submit-contact input {
+	padding: 14px 32px 11px 0px;
+	width: 100%;
+}
+
+input[type="submit"]:hover {
+	background-color: #EADA00;
+    box-shadow: none;
+}
+
+.popular-text {
+	padding: 2%;
+	margin-bottom: 3%;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 4% 2% 1% 2%;
+	margin-bottom: 3%;
+}
+
+.popular-text:hover {
+	background-color: #ffd500;
+	transition: 0.5s;
+}
+
+.comment ul {
+	margin-left: 0;
+}
+
+a.page.smaller {
+	background-color: #eee;
+	border-color: #ddd;
+	padding: 6% 8%;
+	color: #222;
+}
+
+
+a.page.smaller:hover {
+	background-color: #454545;
+	color: #fff;
+	transition: 1s;
+}
+
+.wp-pagenavi a {
+	color: #222;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 24px;
+}
