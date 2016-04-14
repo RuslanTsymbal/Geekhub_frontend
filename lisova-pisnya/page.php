@@ -1,16 +1,13 @@
-
 <?php get_header(); ?>
- <?php echo "we are hea"?>
+ 	<div class="content">
 
-	<div class="content">
-
-		<?php if (have_posts('&showposts=5')) : ?>
+		<?php if (have_posts()) : ?>
 			<div class="container-fluid">
 				<div class="text">
 					<h1><?php single_tag_title(); ?></h1>
 				</div>
 			</div>
-		<?php while (have_posts()) : the_post('cat=5'); ?>
+		<?php while (have_posts()) : the_post(); ?>
 
 				<div class="container-fluid">
 					<div class="text">
@@ -28,14 +25,13 @@
 					</div>
 				</div>
 
-			<?php endwhile; /* rewind or continue if all posts have been fetched */ ?>
+			<?php endwhile; ?>
 		<?php else : ?>
 		<?php endif; ?>
 		<div class="container-fluid">
 			<div class="pagination-conteiner">
 				<ul class="pagination">
 					<li>
-						<!--       Пагинация	-->
 						<?php
 
 

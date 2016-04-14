@@ -12,7 +12,7 @@
 	<!--	</script>-->
 	<?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?> >
 <div id="header">
 	<div class="container-fluid">
 		<a href="<?php echo home_url(); ?>"><?php

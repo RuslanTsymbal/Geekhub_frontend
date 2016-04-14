@@ -22,6 +22,15 @@
     #header h1 {
         text-align: center;
     }
+    #content{
+        background:url(http://lisova-pisnya.ck.ua/wp-content/uploads/2016/04/bg3.jpg) no-repeat !important;
+        background-size: cover!important;
+    }
+    #content div div{
+        padding-top: 40px!important;
+    }
+
+
 }
 
 /*-------------------------------------------------------------*/
@@ -47,10 +56,14 @@
     div.gallery-img {
         width: 60% !important;
     }
+    #content{
+        background:url(http://lisova-pisnya.ck.ua/wp-content/uploads/2016/04/bg3.jpg) no-repeat !important;
+        background-size: cover!important;
+    }
+    #content div div{
+        padding-top: 40px!important;
+    }
 
-    /*ul.menu li.menu-item a i span {*/
-    /*display: none;*/
-    /*}*/
 }
 
 @media screen and (max-width: 767px) {
@@ -85,7 +98,13 @@
     div.aside-img {
         display: none;
     }
-
+    #content{
+        background:url(http://lisova-pisnya.ck.ua/wp-content/uploads/2016/04/bg3.jpg) no-repeat !important;
+        background-size: cover!important;
+    }
+    #content div div{
+        padding-top: 40px!important;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -117,6 +136,13 @@
     div.gallery-img {
         width: 40% !important;
     }
+    #content{
+        background:url(http://lisova-pisnya.ck.ua/wp-content/uploads/2016/04/bg3.jpg) no-repeat !important;
+        background-size: cover!important;
+    }
+    #content div div{
+        padding-top: 40px!important;
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1255px) {
@@ -136,7 +162,16 @@
         max-height: 300px;
         max-width: 340px;
     }
-}
+    #content{
+        background:url(http://lisova-pisnya.ck.ua/wp-content/uploads/2016/04/bg3.jpg) no-repeat !important;
+        background-size: cover!important;
+    }
+    #content div div{
+        padding-top: 40px!important;
+    }
+    }
 
 
+/*url(http://lisova-pisnya.ck.ua/wp-content/uploads/2016/04/bg3.jpg) no-repeat;*/
+/*background-size: cover;*/
 

@@ -51,7 +51,7 @@ img {
 #header div ul {
     float: right;
     list-style: none;
-    margin: 2% 0 5.5% 0;
+    margin: 2% 0 2.5% 0;
     overflow: hidden;
     padding: 0;
 }
@@ -86,15 +86,16 @@ img {
 }
 
 #content {
-    background: #7cc116 url(http://localhost/site.local/kids/wp-content/uploads/2016/04/bg-content.png) repeat-x top left;
+    background: #7cc116 url(http://lisova-pisnya.ck.ua/wp-content/uploads/2016/04/bg-content.png) repeat-x top left;
     color: #67695e;
     padding-bottom: 2%;
 }
 
 #content div {
-    background: url(http://localhost/site.local/kids/wp-content/uploads/2016/04/bg-homepage.jpg) no-repeat top center;
+    background: url(http://lisova-pisnya.ck.ua/wp-content/uploads/2016/04/bg-homepage.jpg) no-repeat top center;
     margin: 0 auto;
     overflow: hidden;
+
 }
 
 #content div div {
@@ -130,7 +131,7 @@ img {
 }
 
 div.content {
-    background: #ffffff url(http://localhost/site.local/kids/wp-content/uploads/2016/04/bg3.jpg) no-repeat;
+    background: #ffffff url(http://lisova-pisnya.ck.ua/wp-content/uploads/2016/04/bg3.jpg) no-repeat;
     background-size: cover;
     padding-bottom: 8%;
     min-height: 443px;
@@ -204,10 +205,9 @@ div.content div div div#sidebar ul li p {
 }
 
 div.content div div div.aside, div.content div div div#contact {
-    /*	float: right;*/
+
     padding-right: 10px;
-    /*	padding-top: 0;*/
-    /*width: 50%;*/
+
 }
 
 div.content div div.aside span.first {
@@ -375,18 +375,15 @@ div.content div#blog div.article ul {
 }
 
 div.content div#blog div.article ul li {
-    /*background: url(../images/separator-long.gif) no-repeat center top;*/
     display: inline-block;
     overflow: hidden;
 }
-
 div.content div#blog div.article ul li.first {
     background: none;
 }
 
 div.content div#blog div.article ul li div {
     padding-top: 0;
-
 }
 
 div.content div#blog div.article ul li div h1 {
@@ -396,7 +393,7 @@ div.content div#blog div.article ul li div h1 {
 }
 
 div.content div#blog div.article ul li div h1 a {
-    /*	color: #FC9400;*/
+
     display: block;
     text-decoration: none;
     color: #069006;
@@ -706,7 +703,6 @@ div.content div div div.aside h3 {
     color: #069006;
     display: block;
     font-size: 2rem;
-    /*	padding-top: 50px;*/
 }
 
 img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
