@@ -1,17 +1,24 @@
 
-function testUser() {
-    var objectUser = {
-        nameUser: true,
-        change: function (retrieve){
-                if(objectUser.nameUser == false){
-                objectUser.nameUser = true;
+;+function(){
+     var objectUser = {
+         nameUser: true,
+         change: function (name){
+            objectUser.nameUser = name;
+         },
+         retrieve: function () {
+            if (typeof(objectUser.nameUser) === 'boolean' ){
+                return objectUser.nameUser;
+            } else {
+                return false;
             }
         },
-        retrieve: function () {
-            if (typeof(objectUser.nameUser) == boolean){
-                return  false;
-            }
-        }
+         check: function (){
+             if(objectUser.nameUser != true){
+                 objectUser.nameUser = true;
+             }
+         }
     };
-}
+    objectUser.change("hello");
+    window.objectUser = objectUser;
+}();
 

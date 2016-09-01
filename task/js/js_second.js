@@ -1,12 +1,20 @@
+;+function() {
+    function First (fn,name) {
+        this.fn = function(fn){
 
-
-function testUser_2() {
-    function record(fn) {
-        this.func = fn;
-        this.func2 = function(){
-            return objectUser.nameUser;
         };
+        this.name = function(name){
+            return name;
+        }
     }
-}
+    var first  = new First (objectUser.retrieve, objectUser.nameUser );
+    console.log(first.name);
+}();
 
-var first = new testUser_2 (objectUser.retrieve );
+
+
+
+
+/*напиши проверку, что бы задавалось
+true и потом выводился результат retrieve
+и он должен быть true соответственно*/
