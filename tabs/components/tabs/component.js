@@ -3,12 +3,19 @@ angular.module('myApp').component('tabs', {
         controller: "tabsCtrl"
     });
 
-myApp.controller('tabsCtrl', function ($scope) {
-    //debugger;
+myApp.controller('tabsCtrl', function ($scope, Items) {
+debugger;
     $scope.tabs = [
-        {value: 'main', effect : "Удалить"},
-        {value: 'info', effect : "Удалить"},
-        {value: 'contacts', effect : "Удалить"}
+        {value: 'main'},
+        {value: 'info'},
+        {value: 'contacts'}
     ];
-});
+    $scope.dell = "Удалить";
 
+    //$scope.fromFactory = (function (){
+    //    alert (Items);
+    // });
+
+    //$scope.fromFactory = Items;
+    //console.log($scope.fromFactory);
+});

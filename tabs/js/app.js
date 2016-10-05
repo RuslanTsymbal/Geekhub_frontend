@@ -1,4 +1,15 @@
-var myApp = angular.module('myApp', ['ui.router']);
+myApp = angular.module('myApp', ['ui.router']);
+var items = {};
+
+myApp.factory('Items',function(){
+    //debugger;
+    var items = {};
+    items.add = function(a){
+        items = {value: a};
+        return items;
+    };
+    return items;
+});
 
 myApp.config(function ($stateProvider) {
     //debugger;
@@ -31,9 +42,15 @@ myApp.config(function ($stateProvider) {
 
 /*Получаем говое название Закладки*/
 
-myApp.controller('topCtrl', function ($scope) {
+myApp.controller('topCtrl', function ($scope, Items) {
+    debugger;
+    var newValueTab;
     $scope.addTab = function () {
-        var newValueTab = prompt("Введите новое название закладки");
+        debugger;
+        newValueTab = prompt("Введите новое название закладки");
         console.log(newValueTab);
-    }
+        items = Items.add(newValueTab);
+        console.log(items);
+    };
 });
+
