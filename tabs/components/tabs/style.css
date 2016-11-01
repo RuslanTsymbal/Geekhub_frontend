@@ -1,12 +1,7 @@
+/*стиля для controller  'tabsCtrl'*/
+
 .tabs-content ul {
     list-style: none;
-}
-
-.tabs-content p {
-    width: 90%;
-    height:300px;
-    padding: 3%;
-    display: block;
 }
 
 li {
@@ -17,7 +12,8 @@ li {
     background-color: aqua;
     margin-right: 0.3%;
 }
-.tabs  li a {
+
+.tabs li a {
     text-decoration: none;
     text-transform: uppercase;
     color: green;
@@ -33,7 +29,7 @@ ul.tabs {
     padding-left: 3%;
 }
 
-.tabs  li {
+.tabs li {
     border-radius: 6px 6px 0 0;
     cursor: pointer;
 }
@@ -43,7 +39,7 @@ ul.tabs {
     color: white;
 }
 
-.tabs li a:hover{
+.tabs li a:hover {
     color: white;
 }
 
