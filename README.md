@@ -17,5 +17,10 @@ Homework-GeekHub Frontend
 12.Homework#12 ---
 13.Homework#13 (таймер)
 14.Homework#14 (Slider)
-
-
+15.Homework#15 
+16.Homework#19 (WordPress/1)
+17.Homework#20 (WordPress/2)
+18.Homework#21 (WordPress/3)
+19.Homework#22 (WordPress/3)
+20.Kindergarten
+21.lisova-pisnya

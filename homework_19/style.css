@@ -1,0 +1,438 @@
+/*Theme Name: deliver
+Theme URI:  http://deliver.ua
+Description: deliver
+Author: Ruslan
+Author URI: ваш-URI
+Template: deliver
+Version: номер-версии--необязательное-поле
+*/
+
+/*----------------------Header & content-----------------------------*/
+
+@import url(font/stylesheet.css);
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "HelveticaNeue";
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.header {
+    padding-top: 3.5%;
+    overflow: hidden;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-fluid {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    overflow: hidden;
+}
+
+.social ul li {
+    display: inline-block;
+    float: right;
+    margin-left: 1%;
+}
+
+.social ul li a {
+   padding: 25%;
+    color: white;
+    width: 34px;
+    background-color: #dfdfdf;
+    font-size: 1.7rem;
+    border-radius: 16px;
+}
+
+.social a:hover {
+    color: #765858;
+}
+
+header nav ul li {
+    display:inline-block;
+    text-transform: uppercase;
+    padding-top: 2.5%;
+    margin-right: 2%;
+}
+
+header nav ul li a {
+    color: #666262;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    font-family: 'Novecentowide';
+}
+
+.menu {
+    padding-bottom: 1.5%;
+}
+
+.header-top {
+    overflow: hidden;
+    padding-bottom: 2.5%;
+    border-bottom: 1px solid #ccc;
+}
+
+.search {
+    padding-top: 2.1%;
+}
+.search a  {
+    color: #666262;
+    font-size: 1.7rem;
+    padding-left: 14%;
+}
+header nav ul li a:hover {
+    color: #87b672;
+    transition: 1s;
+}
+
+.search  a:hover {
+    color: #87b672;
+}
+
+.band h1 {
+    color: #fefefe;
+    font-family: "Novecentowide";
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    position: absolute;
+    z-index: 2;
+    padding-top: 2%;
+}
+
+.main-heading h1,
+.text-bottom h2 {
+    color: #5f5b5b;
+    font-family: "Novecentowide";
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-align: center;
+    padding: 5% 0 2%;
+}
+
+.text-top  p,
+.text-bottom p {
+    width: 60%;
+    margin:  0 auto;
+    color: #8f8f8f;
+    line-height: 2.4rem;
+    display: block;
+    text-align: center;
+}
+
+.text-bottom p {
+    padding-bottom: 3%;
+}
+.band img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.line {
+    border-bottom: 1px solid #ccc;
+}
+.text-top {
+    border-bottom: 1px solid #ccc;
+    padding: 5% 0 5%;
+}
+
+.text-top p:first-child {
+    color: #5f5b5b;
+    font-family: "Novecentowide";
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    padding-bottom: 1%;
+}
+
+.children {
+    display: none;
+}
+
+#content .text-top p:nth-child(6){
+    color: #5f5b5b;
+    font-family: "Novecentowide";
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    padding-bottom: 2%;
+}
+
+.bottom {
+    width: 15%;
+    margin: 0 auto;
+    background-color: #87b672;
+    text-align: center;
+    padding: 1.2% 0 1.2%;
+}
+
+.bottom:hover {
+    background-color: green;
+    transition: 1s;
+}
+.bottom a {
+    color: white;
+    font-family: "Novecentowide";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+
+}
+
+/*----------------------------------portfolio-----------------------------------------*/
+
+.menu-portfolio ul li {
+    display: inline-block;
+    padding-top: 5%;
+    font-family: "Novecentowide";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #5f5b5b;
+    text-transform: uppercase;
+}
+
+.menu-portfolio ul li a {
+    color: #5f5b5b;
+}
+
+.menu-portfolio ul li a:hover {
+    color: #87b672;
+}
+
+/*----------------------------------footer-------------------------------------------*/
+
+#footer  {
+    background-color: #333;
+    position: relative;
+    color: #9b9999;
+    margin-top: 3%;
+}
+
+#footer p {
+    color: #9b9999;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.footer-left {
+    padding: 6% 4% 0 0;
+    width: 38%;
+    float: left;
+}
+
+.footer-left p {
+    padding-top: 4%;
+}
+
+.footer-center .social {
+    float: left;
+    position: absolute;
+    padding-top: 7%;
+    width: 29%;
+}
+
+.footer-center {
+    border-bottom: 1px solid #808080;
+    padding-bottom: 4%;
+}
+
+.footer-center .social ul li {
+    margin-left: 3%;
+}
+.contact {
+    padding-top: 6%;
+    float: left;
+    overflow: hidden;
+    width: 14%;
+}
+
+.contact h1,
+.links h1,
+.news h1 {
+    color: #fefefe;
+    font-family: "Novecentowide";
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+}
+
+.contact h1 {
+    padding-bottom: 10%;
+}
+
+.contact span {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    display: block;
+}
+
+.contact .email {
+    padding: 3.5% 0 3.5%;
+}
+
+.contact span:last-child {
+    color: #fefefe;
+    font-family: "Novecentowide";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.links {
+    padding-top: 6%;
+    padding-left: 5%;
+    overflow: hidden;
+    width: 22%;
+    float: left;
+}
+
+.links h1 {
+    padding-bottom: 10%;
+}
+
+.news h1 {
+    padding-bottom: 6%;
+}
+
+#menu-footer-menu-2 a {
+    color: #9b9999;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    background: url("http://deliver.ua/wp-content/uploads/2016/03/slice.jpg") no-repeat;
+    padding-left: 10%;
+}
+
+#menu-footer-menu-2 a:hover {
+    color: #87b672;
+}
+
+.news {
+    padding-top: 6%;
+    overflow: hidden;
+}
+
+.news p {
+    display: block;
+    width: 61%;
+    padding-bottom: 7%;
+}
+
+input[type="email"] {
+    width: 48%;
+    display: block;
+    float: left;
+    background-color: #4e4c4c;
+    border: none;
+    padding: 3% 0 3% 4%;
+}
+
+.news button {
+    color: #fefefe;
+    font-family: "Novecentowide";
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    background-color: #828282;
+    border: none;
+    margin-left:5%;
+    text-transform: uppercase;
+    padding: 2% 4% 2% 4%;
+}
+
+.news button:hover {
+    background-color: darkslategrey;
+    transition: 1s;
+}
+
+.link-footer {
+    color: #cbcbcb;
+}
+
+.link-footer:hover {
+    color: #87b672;
+}
+
+.footer-bottom {
+    width: 50%;
+    float: left;
+}
+
+.footer-bottom p {
+    padding: 2% 0 2%;
+}
+
+.links-bottom a {
+    color: grey;
+}
+
+.links-bottom a:hover {
+    color: #87b672;
+}
+
+.links-bottom {
+    overflow: hidden;
+    text-align: right;
+}
+
+.links-bottom ul li {
+    display: inline-block;
+    padding: 2% 0 1%;
+    font-family: "Novecentowide";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.list {
+    overflow: hidden;
+    padding-top: 5%;
+}
+.list-tv  {
+    display: inline-block ;
+    width: 33%;
+}
+
+.list-tv h3 {
+    text-align: left;
+    text-transform: uppercase;
+    color: #5f5b5b;
+    font-family: Novecentowide;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    padding: 4% 0 4%;
+}
+
+.list p {
+    text-align: left;
+    color: #8f8f8f;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    padding-bottom:14%;
+    display: block;
+}
+
+
